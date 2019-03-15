@@ -34,6 +34,7 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 # My own defaults
+THEME = 'theme'
 DEFAULT_CATEGORY = 'Errata'
 
 DIRECT_TEMPLATES = ['index', 'categories', 'archives']
@@ -52,6 +53,7 @@ TAG_SAVE_AS = ''
 STATIC_PATHS = [
     'images',
     'static',
+    'css'
     ]
 
 EXTRA_PATH_METADATA = {
