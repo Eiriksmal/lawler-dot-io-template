@@ -246,13 +246,8 @@ pre {
     font-family: Consolas,Monaco,Menlo,"Courier New",monospace;
 }
 
-footer {
-    line-height: 2.5em;
-    text-align: center;
-    color: #BBB;
-    margin: 3em 0;
-    border: 1px solid #EEE;
-    border-radius: 5px;
+footer small {
+    font-size: 0.8em
 }
 footer p { margin: 0; }
 
@@ -395,7 +390,7 @@ main {
         background: #fff;
     }
 
-    header, footer, nav {
+    header, nav {
         display: none;
     }
     img {
