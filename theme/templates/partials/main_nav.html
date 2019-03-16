@@ -1,0 +1,21 @@
+<ul>
+    <!-- home link -->
+    <li{% if page_name == "index" %}{% endif %}><a href="{{ SITEURL }}/">Home</a></li>
+
+    <!-- page links -->
+    {% if DISPLAY_PAGES_ON_MENU %}
+    {% for page in pages %}
+    <li{% if output_file == page.url %}{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+    {% endif %}
+
+    <li{% if page_name == 'categories' %}{% endif %}><a href="{{ SITEURL }}/categories/">Categories</a></li>
+
+    <!-- additional menu items from config -->
+    {% if MENUITEMS %}
+    {% for item in MENUITEMS %}
+    <li{% if output_file == item.1 %}{% endif %}><a href="{{ SITEURL }}/{{ item.1 }}">{{ item.0 }}</a></li>
+    {% endfor %}
+    {% endif %}
+
+</ul>

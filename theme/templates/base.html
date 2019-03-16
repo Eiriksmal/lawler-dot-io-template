@@ -44,6 +44,18 @@
     {% endblock head %}
 </head>
 <body>
+    <aside id="asidebar" role="complementary" class="border">
+        <div id="logo">
+            <a href="{{ SITEURL }}/index.html">
+                <img src="{{ LOGO }}" />
+            </a>
+        </div>
+        <nav class="main-menu" role="navigation">
+            {% include 'partials/main_nav.html' %}
+        </nav>
+
+        {% include 'partials/social.html' %}
+    </aside>
     <div id="wrapper">
         <div id="content">
             {%- block content -%}{%- endblock %}
@@ -52,11 +64,7 @@
             <div class="clear"></div>
             <footer>
                 <p>
-                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
-                &middot;
-                Powered by <a href="http://getpelican.com">Pelican</a>
                  {% if FEED_ALL_ATOM %}
-                &middot;
                 <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
                  {% endif %}
                  {% if FEED_ALL_RSS %}
