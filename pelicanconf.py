@@ -26,7 +26,12 @@ LINKS = (('LinkedIn', 'https://www.linkedin.com/in/eric-lawler'),
          ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),)
+SOCIAL = (
+  ('GitHub', 'https://github.com/Eiriksmal'),
+  ('Twitter', 'https://www.twitter.com/Eiriksmal'),
+  ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
+  ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),
+)
 
 DEFAULT_PAGINATION = False
 

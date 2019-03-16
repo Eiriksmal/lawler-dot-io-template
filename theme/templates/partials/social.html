@@ -1,0 +1,17 @@
+<ul id="social">
+    {% for social in SOCIAL %}
+    {% if 'github' in social.1%}
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-github"></i></a></li>
+
+    {% elif 'twitter' in social.1%}
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-twitter2"></i></a></li>
+
+    {% elif 'linkedin' in social.1%}
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-linkedin2"></i></a></li>
+
+    {% elif 'flickr' in social.1%}
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-flickr"></i></a></li>
+
+    {% endif %}
+    {% endfor %}
+</ul>
