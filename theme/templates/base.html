@@ -56,26 +56,22 @@
 
         {% include 'partials/social.html' %}
     </aside>
-    <div id="wrapper">
-        <div id="content">
-            {%- block content -%}{%- endblock %}
+    <main>
+        {%- block content -%}{%- endblock %}
 
-            {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
-            <div class="clear"></div>
-            <footer>
-                <p>
-                 {% if FEED_ALL_ATOM %}
-                <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
-                 {% endif %}
-                 {% if FEED_ALL_RSS %}
-                &middot;
-                <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate">Rss Feed</a>
-                 {% endif %}
-            </footer>
-            {% endif %}
-        </div>
+        {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
         <div class="clear"></div>
-    </div>
-{% include 'analytics.html' %}
+        <footer>
+            <p>
+             {% if FEED_ALL_ATOM %}
+            <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
+             {% endif %}
+             {% if FEED_ALL_RSS %}
+            &middot;
+            <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate">Rss Feed</a>
+             {% endif %}
+        </footer>
+        {% endif %}
+    </main>
 </body>
 </html>
