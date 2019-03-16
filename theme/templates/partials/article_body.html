@@ -6,9 +6,9 @@
                     </h1>
                     {% endif %}
 
-                    <p>Written {{ article.locale_date }}</p>
+                    <p><span class="newthought">Written {{ article.locale_date }}</span></p>
                     {% if article.category.name != "" %}
-                        <p>Filed under <a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a></p>
+                        <p><span class="newthought">Filed under &ldquo;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}&rdquo;</a></span></p>
                     {% endif %}
                 </header>
 

@@ -241,6 +241,11 @@ main {
     flex: 4 1 auto;
 }
 
+article > header > p {
+    margin: 0;
+    font-size: 1rem;
+}
+
 #asidebar {
     padding-top: 8rem;
     padding-bottom: 40px;
