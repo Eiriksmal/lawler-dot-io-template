@@ -60,11 +60,6 @@ ol {
     list-style: outside decimal;
 }
 
-p, .post > .highlight, .highlighttable, h4, h5, h6 {
-    margin-top: 1.2em;
-}
-
-
 blockquote {
     margin: 1.5em 1.5em 1.5em .75em;
     padding-left: .75em;
@@ -114,14 +109,6 @@ thead {
     border: 1px #999 solid;
 }
 
-/*.post {*/
-    /*margin: 0 0 4.5em 150px;*/
-/*}*/
-.post.archives {
-    margin-bottom: 1.5em;
-    margin-left: 160px;
-}
-
 .page {
     margin: 0 90px;
 }
@@ -162,7 +149,7 @@ sub {
     bottom: -0.25em;
 }
 
-.post pre, .page pre {
+article pre, .page pre {
     padding: .8em;
     line-height: 1.1em;
     overflow: auto;
@@ -374,11 +361,8 @@ main {
         width: 100%;
         margin: 0 0 .5em 0;
     }
-    /*.post {*/
-        /*margin: 0 0 4.5em 0;*/
-    /*}*/
-    .post pre,
-    .post code {
+
+    article pre, article code {
         white-space: pre-wrap;
     }
     .archives {
@@ -409,7 +393,7 @@ main {
     h3, h4, h4.date {
         font-size: 12pt;
     }
-    .post p, .post ul li, .post ol li, .post table {
+    article p, article ul li, article ol li, article table {
         font-size: 11pt;
     }
 }

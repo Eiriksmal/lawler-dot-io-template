@@ -1,4 +1,4 @@
-            <article class="post">
+            <article>
                 {% if article.title %}
                 <h1 class="title">
                     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
@@ -6,7 +6,6 @@
                 {% endif %}
 
                 {{ article.content }}
-                <div class="clear"></div>
 
                 <div class="info">
                     <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
