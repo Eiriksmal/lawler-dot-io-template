@@ -1,7 +1,3 @@
-            {% if not articles_page or first_article_of_day %}
-            <h4 class="date">{{ article.date.strftime("%b %d, %Y") }}</h4>
-            {% endif %}
-
             <article class="post">
                 {% if article.title %}
                 <h1 class="title">
