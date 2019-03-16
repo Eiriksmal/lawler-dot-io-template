@@ -238,6 +238,11 @@ article a:link::-moz-selection {
     background: #b4d5fe;
 }
 
+main > article > header > h1 > a:link.no-line {
+    background: none;
+    text-shadow: none;
+}
+
 /* Sidenotes, margin notes, figures, captions */
 /*img {*/
     /*max-width: 100%;*/

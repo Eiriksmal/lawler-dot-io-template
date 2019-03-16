@@ -1,7 +1,7 @@
             <article>
                 {% if page.title %}
-                <h1 class="title">
-                    <a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" title="Permanent Link to &quot;{{ page.title }}&quot;">{{ page.title }}</a>
+                <h1>
+                    <a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" {% if page_name != "index" %}class="no-line"{% endif %} title="Permanent link to &quot;{{ page.title }}&quot;">{{ page.title }}</a>
                 </h1>
                 {% endif %}
 

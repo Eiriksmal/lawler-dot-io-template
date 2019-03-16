@@ -47,11 +47,6 @@ table {
     border-spacing: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #15A9DB;
-}
-
 ul {
     list-style: outside disc;
 }
@@ -85,9 +80,7 @@ thead {
 }
 
 .info {
-    margin-top: 1.3em;
     text-align: right;
-    color: #BBB;
 }
 .info a {
     color: inherit;
