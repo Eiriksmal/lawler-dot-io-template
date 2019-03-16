@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: "et-bembo-roman-old-style";
-    src:  local("ET Bembo RomanOSF"), local('ETBembo-RomanOSF'),
+    src: local("ET Bembo RomanOSF"), local('ETBembo-RomanOSF'),
     url("fonts/et-bembo-roman-old-style-figures/et-bembo-roman-old-style-figures.woff") format("woff"),
     url("fonts/et-bembo-roman-old-style-figures/et-bembo-roman-old-style-figures.ttf") format("truetype");
     font-weight: normal;
@@ -40,14 +40,9 @@ html {
 }
 
 body {
-    width: 87.5%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12.5%;
     font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
     color: #111;
-    max-width: 1400px;
     counter-reset: sidenote-counter;
 }
 
@@ -80,7 +75,7 @@ h3 {
 hr {
     display: block;
     height: 1px;
-    width: 55%;
+    width: 70%;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
@@ -106,7 +101,10 @@ p.subtitle {
 
 article {
     position: relative;
-    padding: 5rem 0rem;
+}
+
+article:first-of-type {
+    padding: 4rem 0;
 }
 
 section {
@@ -221,7 +219,7 @@ article a:link {
     background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
     text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
-    background-position: 0% 93%, 100% 93%, 0% 93%;
+    background-position: 0 93%, 100% 93%, 0 93%;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -241,14 +239,14 @@ article a:link::-moz-selection {
 }
 
 /* Sidenotes, margin notes, figures, captions */
-img {
-    max-width: 100%;
-}
+/*img {*/
+    /*max-width: 100%;*/
+/*}*/
 
 .sidenote, .marginnote {
     float: right;
     clear: right;
-    margin-right: -60%;
+    margin-right: -61%;
     width: 50%;
     margin-top: 0;
     margin-bottom: 0;
@@ -320,14 +318,14 @@ h1 > code, h2 > code, h3 > code {
 }
 
 /*pre.code {*/
-    /*font-size: 0.9rem;*/
-    /*width: 52.5%;*/
-    /*margin-left: 2.5%;*/
-    /*overflow-x: auto;*/
+/*font-size: 0.9rem;*/
+/*width: 52.5%;*/
+/*margin-left: 2.5%;*/
+/*overflow-x: auto;*/
 /*}*/
 
 /*pre.code.fullwidth {*/
-    /*width: 90%;*/
+/*width: 90%;*/
 /*}*/
 
 .fullwidth {
@@ -436,7 +434,7 @@ label.margin-toggle:not(.sidenote-number) {
         width: 85%;
     }
 
-    img {
-        width: 100%;
-    }
+    /*img {*/
+        /*width: 100%;*/
+    /*}*/
 }
