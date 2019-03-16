@@ -1,0 +1,9 @@
+            <article class="post">
+                {% if page.title %}
+                <h1 class="title">
+                    <a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" title="Permanent Link to &quot;{{ page.title }}&quot;">{{ page.title }}</a>
+                </h1>
+                {% endif %}
+
+                {{ page.content }}
+            </article>
