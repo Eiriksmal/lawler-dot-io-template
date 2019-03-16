@@ -1,16 +1,16 @@
 <ul id="social">
     {% for social in SOCIAL %}
     {% if 'github' in social.1%}
-    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-github"></i></a></li>
-
-    {% elif 'twitter' in social.1%}
-    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-twitter2"></i></a></li>
-
-    {% elif 'linkedin' in social.1%}
-    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-linkedin2"></i></a></li>
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}" target=_blank><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wMQBSkoPIUbOQAAAWNJREFUOMuVk7FKQzEUhr970UmXDklG26UKFfUFFCm+gopTJx0UHOpWfAAdHBx00CfQDvoAHUR0FRSk6NI6JpkEnapel3NLCLXUA4F7kv//85+TcxMkjNJY7zBKV4A9YBmYkuM34AY4st4951iAJCJfAGsMj0vr3XrOSQLyC1BmtHi13k0bpUmF3BTyE1ADugJ8l4Xs1QRTNko3cwdzwKOAzq13W8OuNkqfAZuSzqdAPTgfG8F+iKknRulu0O1J4DPv8IDbASaAj/x1EqP0j7zGl/VufJQOGqV74iRLgewf9uMyshToBMpVsflnCUbparDVSYFW4OIaKEaEUKMIXAV5KzFKF8XFPlABNoAHYNd6dy9CS8AxsBCZKuWjfAJsA7PyH5SAFeA7qLkXkU+tdzvhKN8CM8Aq4Kx37aj+LEjvrHeL/fLyD6P0gVE6i8B9AVmHISceEozSBaN0Y4BAwyhdiMm/6K92B5mUXmkAAAAASUVORK5CYII=" alt="GitHub"></a></li>
 
     {% elif 'flickr' in social.1%}
-    <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-flickr"></i></a></li>
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}" target=_blank><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wMQBTkodkcJaAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAACz0lEQVQ4y1WTTWhjVRTHf/flvSbNi9HaTlGpEUc7SmVkau2iuwh+gDtnIbhxpYtZuKi4cOPCnSAIim5m5VaYlbNT1Ii4EBtrKG1nbE2ZRwttJ8nL5Ovdl/vlIiY0B+7i3sP/cM79/Q/8H1EUAVCv119otVpfxXF8J45j1Ww29fn5+cHx8fE3+/v7VwGq1SpTcXp6CkCz2fxSSumklC5JEjcYDFyv13OdTsfFcezOzs7c4eHhtwBbW1sAiCiKKJVKtNvtP8MwfNkYA4BzDuccAMYYrLVYaxkOh3Q6nWh5efkpAAEQx/EXhUJhcywYiy8eay3GGLTWpGlKq9X68ejo6HVRr9evLC0t3R2PY6xDAEIwJbTGoJXGuNG93++7RqMR+vPz8+8jBH2pefbDX/FzIc4Yvt+8yuqTIUII5B/3aL52k4VMkfRhQW7vA3zfF9ls9jvR6/VqYT734uKNn5ktLkw+dpBIap9eYz5w3C9+whKPjsYDuoseD7bfpRO38dM0vXzv/oDE5pi9QCY/m+Pv44SXfvmLRR6avAugcK4ZhFlEW+BprSnmfaQy02yd47HiDLnSApbpnPAz6KHCOYdnjKnPzXp8/OYTJKkCwFrHpWLAyuNZwreu0X/ukUkRh0a//Tx6kKKUQkRR9HkYhh9lA5/bOx1++zfh6YUcm69eQhmw1kJGoD/7neBOjH2lROt6ibTdp9Fo3BZ7e3tX5ubm7s7MzOB5HhlPgPBGrQoxQam1RluDHiq01nS7XU5OToreysrKP/1+/2ul1MgoZsR5bBqlFOOcURpjDEmS0Ov1ftrZ2emK7e1tVldXOTg4OMzn888EQYAQYsqRF10opaTb7R6tr69frlQqIytXq1XW1tbY3d29lc/nrwdBIC4WMcaglBqLf9jY2HjjItbJOpdKJWq1WgG46fv+O5lMZrJAUspbUsr3yuXyg0qlQrlcBuA/oVDHYIUM8hAAAAAASUVORK5CYII=" alt="Flickr"></a></li>
+
+    {% elif 'linkedin' in social.1%}
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}" target=_blank><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wMQBTs2vn5WiQAAAVJJREFUOMulk79Kw1AUxn/3JqbQqoNWVBwVHFTEXRSEvoCT+A6CUKTYwbEP4Obo4KBjsaujkxR0sAqCONhiax1SU5rY9Dq0TYwNltoz3e/8+c45H+cKUrlDIMP/LC1I5RSAAKKGhuW4AzHIbvHN3jrVowQn2yugBiSIGhpL06NEdEliYRLc1mAEluNymn/l+aPO8fUL6LI3Uylo9Y7maTARHcFtKVoKanaTeNRASqjZLoYm2JqPE9El2fs36l++TnqX/TG5STxmcH5XYucsTyG5QTxmcFsyWZ4ZQxPCK5rLXFE0G/4K4OumlArg1dnxQDHAxe6alyD7iVQ0G4iDS8R+lqdqHYDFqZjXoi/BQ8UCKSCiUyjXAtP5Gvxh5U8bOiuEHZlkSBuaQO+ew7vlAGDazRCM965YTicmgofUVka1AyIEE+6TQJrujxI/kn/jcF/6GwYNfGz2V5qmAAAAAElFTkSuQmCC" alt="LinkedIn"></a></li>
+
+    {% elif 'twitter' in social.1%}
+    <li><a href="{{ social.1 }}" alt="{{ social.0 }}" target=_blank><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wMQBgkkovHN6QAAAQtJREFUOMvN078rhVEcx/HXfQbjURYGz4CkDMpETJI/wCo62QxWi80iq9X2LDaTzcJEBmWmRGdhkDwSSlju1fXjoZvFZ/rW97zf59T3e/hjapAXZWeK4arqUF6U65hFG7ZTDDN5UY7goVYvdtCdYrj7Bt7B1DfeUyxk6ETATV6Uk5/g9goY+nFfy4uyA9dNjTMs4QiPuKwQjKUYDjJkWG1q9GIL5z/AGpdm6MMyXlscwC1kKYZDHDcm0kLeXyDFMIzdFuC1FMPzu6CeiRYEK42iWdCFe7z8Ao+nGB6/COqbGLDxA7yYYtj/sMp5UU5jAHMYrACfMJRiOKn6Cz3YxGhT7xUXmE8x7Pm3eQOQOktCKWOHtgAAAABJRU5ErkJggg==" alt="Twitter"></a></li>
 
     {% endif %}
     {% endfor %}
