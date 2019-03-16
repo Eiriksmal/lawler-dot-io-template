@@ -44,11 +44,6 @@ table {
     border-spacing: 0;
 }
 
-body {
-    line-height: 1.5em;
-    color: #444;
-}
-
 header, #wrapper {
     padding: 0 10px;
     max-width: 910px;

@@ -4,15 +4,10 @@
 
             <article class="post">
                 {% if article.title %}
-                <h2 class="title">
+                <h1 class="title">
                     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
-                </h2>
+                </h1>
                 {% endif %}
-
-		{% if not articles_page %}
-		{% include "translations.html" %}
-		{% endif %}                
-                
 
                 {{ article.content }}
                 <div class="clear"></div>
