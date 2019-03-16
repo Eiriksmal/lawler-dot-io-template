@@ -349,32 +349,6 @@ main {
     visibility: visible;
     transform: scaleX(1);
 }
-#asidebar .main-menu ul li.fh5co-active a {
-    color: black;
-}
-#asidebar .main-menu ul li.fh5co-active a:after {
-    visibility: visible;
-    transform: scaleX(1);
-}
-#asidebar .fh5co-footer {
-    position: absolute;
-    bottom: 40px;
-    font-size: 14px;
-    text-align: center;
-    width: 100%;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.6);
-    padding: 0 20px;
-}
-@media screen and (max-width: 768px) {
-    #asidebar .fh5co-footer {
-        position: relative;
-        bottom: 0;
-    }
-}
-#asidebar .fh5co-footer span {
-    display: block;
-}
 
 #asidebar #social [class^="icon-"], [class*=" icon-"] {
     font-size: 2em;
