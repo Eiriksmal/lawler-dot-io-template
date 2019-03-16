@@ -1,9 +1,17 @@
             <article>
-                {% if article.title %}
-                <h1 class="title">
-                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
-                </h1>
-                {% endif %}
+                <header>
+                    {% if article.title %}
+                    <h1>
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" {% if page_name is undefined %}class="no-line"{% endif %} title="Permanent link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
+                    </h1>
+                    {% endif %}
+
+                    <p>Written {{ article.locale_date }}</p>
+                    {% if article.category.name != "" %}
+                        <p>Filed under <a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a></p>
+                    {% endif %}
+                </header>
+
 
                 {{ article.content }}
 

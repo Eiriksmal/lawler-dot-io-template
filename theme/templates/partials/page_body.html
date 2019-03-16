@@ -1,9 +1,11 @@
             <article>
-                {% if page.title %}
-                <h1>
-                    <a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" {% if page_name != "index" %}class="no-line"{% endif %} title="Permanent link to &quot;{{ page.title }}&quot;">{{ page.title }}</a>
-                </h1>
-                {% endif %}
+                <header>
+                    {% if page.title %}
+                    <h1>
+                        <a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark" {% if page_name is undefined %}class="no-line"{% endif %} title="Permanent link to &quot;{{ page.title }}&quot;">{{ page.title }}</a>
+                    </h1>
+                    {% endif %}
+                </header>
 
                 {{ page.content }}
             </article>
