@@ -278,7 +278,7 @@ footer p { margin: 0; }
 .clear { clear: both; }
 
 #asidebar {
-    padding-top: 60px;
+    padding-top: 8rem;
     padding-bottom: 40px;
     width: 20%;
     position: fixed;
@@ -289,6 +289,10 @@ footer p { margin: 0; }
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+}
+
+#asidebar.disappear {
+    position: absolute;
 }
 
 @media screen and (max-width: 1200px) {
@@ -312,7 +316,7 @@ footer p { margin: 0; }
 }
 
 @media screen and (max-width: 768px) {
-    #asidebar #fh5co-logo {
+    #asidebar #logo {
         margin-bottom: 1em;
     }
 }
@@ -335,14 +339,8 @@ footer p { margin: 0; }
 #asidebar .main-menu ul li a {
     color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
     position: relative;
     padding: 10px 10px;
-    letter-spacing: .2em;
-    font-family: "Roboto", Arial, sans-serif;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;

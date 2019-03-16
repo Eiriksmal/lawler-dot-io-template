@@ -44,7 +44,7 @@
     {% endblock head %}
 </head>
 <body>
-    <aside id="asidebar" role="complementary" class="border">
+    <aside id="asidebar" role="complementary" {% if article is defined %} class="disappear" {% endif %}>
         <div id="logo">
             <a href="{{ SITEURL }}/index.html">
                 <img src="{{ LOGO }}" />
