@@ -34,6 +34,16 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 # My own defaults
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.sane_lists': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
 THEME = 'theme'
 DEFAULT_CATEGORY = 'Errata'
 
