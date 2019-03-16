@@ -20,19 +20,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('LinkedIn', 'https://www.linkedin.com/in/eric-lawler'),
-         ('GitHub', 'https://github.com/Eiriksmal'),
-         ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),)
-
-# Social widget
-SOCIAL = (
-  ('GitHub', 'https://github.com/Eiriksmal'),
-  ('Twitter', 'https://www.twitter.com/Eiriksmal'),
-  ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
-  ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),
-)
-
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -50,6 +37,8 @@ MARKDOWN = {
 }
 
 THEME = 'theme'
+LOGO = '/images/logo.png'
+
 DEFAULT_CATEGORY = 'Errata'
 
 DIRECT_TEMPLATES = ['index', 'categories', 'archives']
@@ -76,3 +65,19 @@ EXTRA_PATH_METADATA = {
     'images/favicon.ico': {'path': 'favicon.ico'},
     }
 
+# Theme extras
+MENUITEMS = [
+  ('Contact', 'contact/'),
+  ('Archive', 'archives/')
+]
+
+LINKS = (('LinkedIn', 'https://www.linkedin.com/in/eric-lawler'),
+         ('GitHub', 'https://github.com/Eiriksmal'),
+         ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),)
+
+SOCIAL = (
+  ('GitHub', 'https://github.com/Eiriksmal'),
+  ('Twitter', 'https://www.twitter.com/Eiriksmal'),
+  ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
+  ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),
+)
