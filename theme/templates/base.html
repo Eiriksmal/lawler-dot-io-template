@@ -44,37 +44,6 @@
     {% endblock head %}
 </head>
 <body>
-    {% if DISPLAY_HEADER or DISPLAY_HEADER is not defined %}
-    <header>
-        {% if DISPLAY_MENU or DISPLAY_MENU is not defined %}
-        <nav>
-            <ul>
-            {% block ephemeral_nav %}{% endblock %}
-                {% if DISPLAY_HOME or DISPLAY_HOME is not defined %}
-                <li{% if output_file == "index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/">Home</a></li>
-                {% endif %}
-                {% if DISPLAY_PAGES_ON_MENU %}
-                {% for p in pages %}
-                <li{% if p == page %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-                {% endfor %}
-                {% endif %}
-                {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
-                {% endfor %}
-                {% for name, link, file in MENU_INTERNAL_PAGES %}
-                <li{% if output_file == file %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
-                {% endfor %}
-            </ul>
-        </nav>
-        {% endif %}
-        <div class="header_box">
-            <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-            {% if SITESUBTITLE %}
-            <h2>{{ SITESUBTITLE }}</h2>
-            {% endif %}
-        </div>
-    </header>
-    {% endif %}
     <div id="wrapper">
         <div id="content">
             {%- block content -%}{%- endblock %}
