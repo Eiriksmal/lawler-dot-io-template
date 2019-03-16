@@ -73,11 +73,11 @@ MENUITEMS = [
 
 LINKS = (('LinkedIn', 'https://www.linkedin.com/in/eric-lawler'),
          ('GitHub', 'https://github.com/Eiriksmal'),
-         ('Flickr', 'https://www.flickr.com/photos/10418744@N04/'),)
+         ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),)
 
 SOCIAL = (
   ('GitHub', 'https://github.com/Eiriksmal'),
   ('Twitter', 'https://www.twitter.com/Eiriksmal'),
   ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
-  ('Flickr', 'https://www.flickr.com/photos/10418744@N04/albums'),
+  ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),
 )
