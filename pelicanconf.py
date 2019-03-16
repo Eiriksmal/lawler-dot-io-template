@@ -36,12 +36,20 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['eric_extensions', 'neighbors', 'sitemap']
+
 THEME = 'theme'
 LOGO = '/images/logo.png'
 
 DEFAULT_CATEGORY = 'Errata'
 
 DIRECT_TEMPLATES = ['index', 'categories', 'archives']
+
+SITEMAP = {
+    'format': 'xml',
+    'exclude': ['tag/', 'author/']
+}
 
 ARTICLE_URL = 'scrivings/{slug}/'
 ARTICLE_SAVE_AS = 'scrivings/{slug}/index.html'
