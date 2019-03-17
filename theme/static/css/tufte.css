@@ -106,6 +106,9 @@ article {
 article:first-of-type {
     padding: 4rem 0;
 }
+article:last-of-type {
+    padding-bottom: 6rem;
+}
 
 section {
     padding-top: 1rem;
