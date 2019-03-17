@@ -48,7 +48,7 @@ DIRECT_TEMPLATES = ['index', 'categories', 'archives', 'tags']
 
 SITEMAP = {
     'format': 'xml',
-    'exclude': ['tag/', 'author/']
+    'exclude': ['tags/', 'author/', 'categories/']
 }
 
 ARTICLE_URL = 'scrivings/{slug}'
