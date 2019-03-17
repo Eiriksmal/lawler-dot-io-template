@@ -42,7 +42,7 @@ PLUGINS = ['eric_extensions', 'neighbors', 'sitemap']
 THEME = 'theme'
 LOGO = '/images/logo.png'
 
-DEFAULT_CATEGORY = 'Errata'
+DEFAULT_CATEGORY = 'Dross'
 
 DIRECT_TEMPLATES = ['index', 'categories', 'archives', 'tags']
 
