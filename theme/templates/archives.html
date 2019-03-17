@@ -2,21 +2,25 @@
 
 {% block title %}{{ SITENAME }} | Archives{% endblock %}
 {% block content %}
+    <article>
+        <header>
+        <h1>Vault</h1>
+            <p><span class="newthought">See also: <a href="{{ SITEURL }}/categories/">categories</a> or <a href="{{ SITEURL }}/tags/">tags</a></span></p>
+        </header>
+        <section>
+            <!--<h2>Scrivings by date</h2>-->
+            {# based on http://stackoverflow.com/questions/12764291/jinja2-group-by-month-year #}
 
-    <h1>Archives</h1>
-
-    {# based on http://stackoverflow.com/questions/12764291/jinja2-group-by-month-year #}
-
-    {% for year, year_group in dates|groupby('date.year')|reverse %}
-        {% for month, month_group in year_group|groupby('date.month')|reverse %}
-            <h4 class="date">{{ (month_group|first).date|strftime('%b %Y') }}</h4>
-            <div class="post archives">
-                <ul>
-                {% for article in month_group %}
-                    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+            {% for year, year_group in dates|groupby('date.year')|reverse %}
+                {% for month, month_group in year_group|groupby('date.month')|reverse %}
+                    <h2>{{ (month_group|first).date|strftime('%B %Y') }}</h2>
+                    <ul class="vault">
+                    {% for article in month_group %}
+                        <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+                    {% endfor %}
+                    </ul>
                 {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
-    {% endfor %}
-{% endblock %}
+            {% endfor %}
+        </section>
+    </article>
+    {% endblock %}

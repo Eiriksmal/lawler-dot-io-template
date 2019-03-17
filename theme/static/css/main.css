@@ -70,21 +70,15 @@ thead {
     border-bottom: 1px solid black;
 }
 
-.date {
-    color: #CCC;
-    float: left;
-    clear: both;
-    width: 130px;
-    font-size: 1.5em;
-    line-height: 1em;
-    margin: 0 20px 1em 0;
+ul.vault {
+    list-style-type: circle
 }
 article > footer {
     text-align: right;
 }
 .de-emphasize {
     font-size: 1rem;
-    color: rgb(17, 17, 17, 0.5);
+    color: rgba(17, 17, 17, 0.5);
 }
 /* Pygment */
 div.highlight {
@@ -357,17 +351,10 @@ del::after {
 }
 
 @media screen and (max-width: 800px), print {
-    .date {
-        width: 100%;
-        margin: 0 0 .5em 0;
-    }
-
     article pre, article code {
         white-space: pre-wrap;
     }
-    .archives {
-        margin: 0 0 1.5em 0 !important;
-    }
+
 }
 @media print {
     * {
@@ -390,7 +377,7 @@ del::after {
     h1, h2 {
         font-size: 14pt;
     }
-    h3, h4, h4.date {
+    h3, h4 {
         font-size: 12pt;
     }
     article p, article ul li, article ol li, article table {
