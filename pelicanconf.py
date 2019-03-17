@@ -75,7 +75,6 @@ EXTRA_PATH_METADATA = {
 
 # Theme extras
 MENUITEMS = [
-  ('Contact', 'contact/'),
   ('Archive', 'archives/')
 ]
 
