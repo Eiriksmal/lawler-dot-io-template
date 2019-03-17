@@ -249,7 +249,6 @@ article > header > p {
 
 #asidebar {
     padding: 8rem 0 0 4rem;
-    transition: 0.5s;
 }
 
 #asidebar.disappear {
