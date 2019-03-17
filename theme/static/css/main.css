@@ -86,7 +86,10 @@ article > footer {
     font-size: 1rem;
     color: rgb(17, 17, 17, 0.5);
 }
-
+/* Pygment */
+div.highlight {
+    width: 67%;
+}
 .highlight {
     border-radius: 3px;
 }
@@ -207,8 +210,8 @@ pre {
     font-family: Consolas,Monaco,Menlo,"Courier New",monospace;
 }
 
-footer small {
-    font-size: 0.8em
+article footer {
+    width: 67%;
 }
 footer p { margin: 0; }
 
