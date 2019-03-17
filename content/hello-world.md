@@ -4,7 +4,8 @@ Category: Errata
 Summary: We all have to start somewhere&hellip;
 
 <section markdown="1">
-<h2>The Beginning</h2>
+The Beginning
+-------------
 
 When learning computer programming, it's traditional to begin one's journey towards mastering the syntax by instructing the computer to print [Hello, World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#History) on the screen.
 
@@ -24,6 +25,8 @@ echo "Hello, World!";
 ```
 </section>
 <section markdown="1">
-<h2>Conclusions?</h2>
+Conclusions?
+------------
+
 This lengthy screed is lawler.io's _Hello, World!_, if you will.
 </section>
