@@ -81,31 +81,10 @@ thead {
 }
 article > footer {
     text-align: right;
+}
+.de-emphasize {
     font-size: 1rem;
-}
-article > footer span.newthought {
-    font-size: 1rem;
-}
-
-article > footer a.tags {
-    background: #CCC;
-    color: #FFF;
-    display: inline-block;
-    padding: 0 .3em;
-    border: 1px transparent solid;
-    border-radius: 5px;
-    margin: 0 0 0.3em 0;
-}
-article > footer a.tags:hover {
-    background: inherit;
-    color: inherit;
-}
-article > footer a.tags.selected {
-    border: 1px #999 solid;
-}
-
-.page {
-    margin: 0 90px;
+    color: rgb(17, 17, 17, 0.5);
 }
 
 .highlight {
