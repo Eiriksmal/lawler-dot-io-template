@@ -16,7 +16,8 @@
                 {{ article.content }}
 
                 <footer>
-                    <span class="newthought">Finalized at {{ article.date.strftime("%-I:%M %p")}}</span>
+                    <span class="newthought">Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.
+                        Improved on {{ article.modified.strftime("%B %d, %Y @ %-I:%M %p")}}{% endif %}</span>
                     {% if article.tags %}
                     &nbsp;&middot;
                     {% for t in article.tags %}
