@@ -336,6 +336,26 @@ article > header > p {
     flex: 1;
 }
 
+/* make <del>s accessible to screen readers. Thanks, MDN! */
+del::before,
+del::after {
+    clip-path: inset(100%);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+del::before {
+    content: " [deletion start] ";
+}
+
+del::after {
+    content: " [deletion end] ";
+}
+
 @media screen and (max-width: 800px), print {
     .date {
         width: 100%;
