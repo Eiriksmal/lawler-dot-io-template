@@ -251,8 +251,8 @@ main > article > header > h1 > a:link.no-line {
 .sidenote, .marginnote {
     float: right;
     clear: right;
-    margin-right: -55%;
-    width: 45%;
+    margin-right: -65%;
+    width: 52%;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.1rem;
@@ -260,6 +260,21 @@ main > article > header > h1 > a:link.no-line {
     vertical-align: baseline;
     position: relative;
 }
+
+@media (max-width: 1500px) {
+    .sidenote, .marginnote {
+        margin-right: -57%;
+        width: 45%;
+    }
+}
+
+@media (max-width: 1230px) {
+    .sidenote, .marginnote {
+        margin-right: -55%;
+        width: 42%;
+    }
+}
+
 
 .sidenote-number {
     counter-increment: sidenote-counter;
