@@ -6,10 +6,10 @@
     <article>
         <header>
             <h1>Categories</h1>
-            <p><span class="newthought">See also: <a href="{{ SITEURL }}/archives/">vault</a> or <a href="{{ SITEURL }}/tags/">tags</a></span></p>
+            <p><span class="newthought">See also: <a href="{{ SITEURL }}/tags/">tags</a> or <a href="{{ SITEURL }}/archives/">vault</a></span></p>
         </header>
         <section>
-        <ul>
+        <ul class="vault">
         {% for category, articles in categories|sort %}
             <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
         {% endfor %}
