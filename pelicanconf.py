@@ -78,11 +78,6 @@ MENUITEMS = [
   ('Vault', 'archives/'),
 ]
 
-LINKS = (('LinkedIn', 'https://www.linkedin.com/in/eric-lawler'),
-         ('GitHub', 'https://github.com/Eiriksmal'),
-         ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),
-)
-
 SOCIAL = (
   ('GitHub', 'https://github.com/Eiriksmal'),
   ('Twitter', 'https://www.twitter.com/Eiriksmal'),
