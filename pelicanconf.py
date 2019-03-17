@@ -75,12 +75,13 @@ EXTRA_PATH_METADATA = {
 
 # Theme extras
 MENUITEMS = [
-  ('Archive', 'archives/')
+  ('Vault', 'archives/'),
 ]
 
 LINKS = (('LinkedIn', 'https://www.linkedin.com/in/eric-lawler'),
          ('GitHub', 'https://github.com/Eiriksmal'),
-         ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),)
+         ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),
+)
 
 SOCIAL = (
   ('GitHub', 'https://github.com/Eiriksmal'),
