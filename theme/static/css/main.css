@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    align-items: flex-start;
 }
 ol, ul {
     list-style: none;
@@ -238,7 +239,7 @@ footer p { margin: 0; }
 main {
     padding: 0 4rem;
     max-width: 1000px;
-    flex: 4 1 auto;
+    width: 70%;
 }
 
 article > header > p {
@@ -247,16 +248,8 @@ article > header > p {
 }
 
 #asidebar {
-    padding-top: 8rem;
-    padding-bottom: 40px;
-    /*position: fixed;*/
-    /*bottom: 0;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*z-index: 1001;*/
+    padding: 8rem 0 0 4rem;
     transition: 0.5s;
-    flex: 1 0 auto;
-    max-width: 200px;
 }
 
 #asidebar.disappear {
@@ -276,12 +269,12 @@ article > header > p {
 /*}*/
 #asidebar #logo {
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
     #asidebar #logo {
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
 }
 
