@@ -180,7 +180,6 @@ li:not(:first-child) {
 figure {
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     max-width: 67%;
@@ -243,11 +242,6 @@ main > article > header > h1 > a:link.no-line {
     text-shadow: none;
 }
 
-/* Sidenotes, margin notes, figures, captions */
-/*img {*/
-    /*max-width: 100%;*/
-/*}*/
-
 .sidenote, .marginnote {
     float: right;
     clear: right;
@@ -274,7 +268,6 @@ main > article > header > h1 > a:link.no-line {
         width: 42%;
     }
 }
-
 
 .sidenote-number {
     counter-increment: sidenote-counter;
@@ -336,17 +329,6 @@ h1 > code, h2 > code, h3 > code {
 .marginnote > code, .sidenote > code {
     font-size: 1rem;
 }
-
-/*pre.code {*/
-/*font-size: 0.9rem;*/
-/*width: 52.5%;*/
-/*margin-left: 2.5%;*/
-/*overflow-x: auto;*/
-/*}*/
-
-/*pre.code.fullwidth {*/
-/*width: 90%;*/
-/*}*/
 
 .fullwidth {
     max-width: 90%;
@@ -419,7 +401,7 @@ label.margin-toggle:not(.sidenote-number) {
 
     blockquote {
         margin-left: 1.5em;
-        margin-right: 0em;
+        margin-right: 0;
     }
 
     blockquote p, blockquote footer {
