@@ -265,17 +265,10 @@ main > article > header > h1 > a:link.no-line {
     user-select: none;
 }
 
-@media (max-width: 1500px) {
-    .sidenote, .marginnote {
-        margin-right: -57%;
-        width: 45%;
-    }
-}
-
 @media (max-width: 1230px) {
     .sidenote, .marginnote {
-        margin-right: -55%;
-        width: 42%;
+        margin-right: -60%;
+        width: 45%;
     }
 }
 
@@ -430,6 +423,10 @@ label.margin-toggle:not(.sidenote-number) {
         margin: 1rem 2.5%;
         vertical-align: baseline;
         position: relative;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        -webkit-user-select: text;
+        user-select: text;
     }
 
     label {
