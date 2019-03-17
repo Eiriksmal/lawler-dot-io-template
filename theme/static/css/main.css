@@ -241,6 +241,11 @@ main {
     max-width: 1000px;
     width: 70%;
 }
+@media screen and (max-width: 940px) {
+    main {
+        width: 69%;
+    }
+}
 
 article > header > p {
     margin: 0;
@@ -259,32 +264,43 @@ article > header > p {
         max-width: 100px;
     }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 910px) {
+    main {
+        width: 68%;
+    }
+
     #asidebar {
-        /*width: 270px;*/
-        /*transform: translateX(-270px);*/
+        padding-left: 2rem;
     }
 }
-#asidebar #logo {
-    text-align: center;
-    margin-bottom: 2rem;
-}
 
-@media screen and (max-width: 768px) {
+/* sidebar mobile-ish break that coincides with Tufte's sidenotes disappearing */
+@media screen and (max-width: 760px) {
     #asidebar #logo {
         margin-bottom: 1rem;
     }
+
+    #asidebar .main-menu ul {
+        margin: 0 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 0 2rem;
+    }
+}
+
+#asidebar #logo {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 #asidebar .main-menu ul {
     text-align: center;
     margin: 0;
     padding: 0;
-}
-@media screen and (max-width: 768px) {
-    #asidebar .main-menu ul {
-        margin: 0 0 2em 0;
-    }
 }
 #asidebar .main-menu ul li {
     margin: 0 0 20px 0;
