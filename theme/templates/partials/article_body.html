@@ -15,13 +15,18 @@
 
                 {{ article.content }}
 
-                <footer>
-                    <span class="newthought">Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.
-                        Improved on {{ article.modified.strftime("%B %d, %Y @ %-I:%M %p")}}{% endif %}</span>
+                <footer class="de-emphasize">
+                    Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.
+                        Improved on {{ article.modified.strftime("%B %d, %Y @ %-I:%M %p")}}{% endif %}
                     {% if article.tags %}
-                    &nbsp;&middot;
+                    &nbsp;&middot; Tagged with
                     {% for t in article.tags %}
-                    &nbsp;<a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
+                    <a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>{%
+                        if loop.length > 2 and loop.nextitem is defined and loop.index0 < loop.length - 2 %}, {%
+                        elif loop.length > 2 and loop.index0 == loop.length - 2 %}, and {%
+                        elif loop.length > 2 and loop.nextitem is defined %}, {%
+                        elif loop.length == 2 and loop.nextitem is defined %} and {%
+                        else %}.{% endif %}
                     {% endfor %}
                     {% endif %}
                 </footer>
