@@ -257,6 +257,12 @@ main > article > header > h1 > a:link.no-line {
     line-height: 1.3;
     vertical-align: baseline;
     position: relative;
+    /* Otherwise, highlighting a paragraph correctly grabs the sidenotes
+     TODO: figure out how to improve this later */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 @media (max-width: 1500px) {
