@@ -156,24 +156,25 @@ blockquote {
 }
 
 blockquote p {
-    width: 67%;
+    width: 60%;
     margin-right: 40px;
 }
 
 blockquote footer {
-    width: 67%;
+    width: 60%;
     font-size: 1.1rem;
     text-align: right;
 }
 
 section > p, section > footer, section > table {
-    width: 67%;
+    width: 60%;
 }
 
-/* 61 + 6 == 67, to be the same width as paragraph */
+/* 54 + 6 == 60, to be the same width as paragraph */
 section > ol, section > ul {
-    width: 61%;
+    width: 54%;
     -webkit-padding-start: 6%;
+    -moz-padding-start: 6%;
 }
 
 li:not(:first-child) {
@@ -185,7 +186,7 @@ figure {
     border: 0;
     font: inherit;
     vertical-align: baseline;
-    max-width: 67%;
+    max-width: 60%;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin: 0 0 3em 0;
@@ -248,7 +249,7 @@ main > article > header > h1 > a:link.no-line {
 .sidenote, .marginnote {
     float: right;
     clear: right;
-    margin-right: -65%;
+    margin-right: -63%;
     width: 52%;
     margin-top: 0;
     margin-bottom: 0;

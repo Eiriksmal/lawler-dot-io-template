@@ -80,9 +80,9 @@ article > footer {
     font-size: 1rem;
     color: rgba(17, 17, 17, 0.5);
 }
-/* Pygment */
-div.highlight {
-    width: 67%;
+/* Pygment is .highlight. Make everything the same width as Tufte paragraphs. */
+div.highlight, article footer {
+    width: 60%;
 }
 .highlight {
     border-radius: 3px;
@@ -204,9 +204,6 @@ pre {
     font-family: Consolas,Monaco,Menlo,"Courier New",monospace;
 }
 
-article footer {
-    width: 67%;
-}
 footer p { margin: 0; }
 
 .right { float: right; }
