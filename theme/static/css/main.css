@@ -253,20 +253,19 @@ article > header > p {
 }
 
 #asidebar.disappear {
-    position: absolute;
 }
 
-/*@media screen and (max-width: 1200px) {*/
-    /*#asidebar {*/
-        /*width: 30%;*/
-    /*}*/
-/*}*/
-/*@media screen and (max-width: 768px) {*/
-    /*#asidebar {*/
+@media screen and (max-width: 1200px) {
+    #asidebar #logo img {
+        max-width: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #asidebar {
         /*width: 270px;*/
         /*transform: translateX(-270px);*/
-    /*}*/
-/*}*/
+    }
+}
 #asidebar #logo {
     text-align: center;
     margin-bottom: 2rem;
@@ -323,28 +322,20 @@ article > header > p {
     transform: scaleX(1);
 }
 
-#asidebar #social [class^="icon-"], [class*=" icon-"] {
-    font-size: 2em;
-}
 #asidebar #social {
-    padding: 0;
     text-align: center;
-    margin: 50px 0 0;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 #asidebar #social li {
-    padding: 0;
     margin: 0;
     display: inline;
     list-style: none;
-}
-#asidebar #social li a {
-    color: rgba(0, 0, 0, 0.7);
-    padding: 4px;
-}
-#asidebar #social li a:hover, #asidebar #social li a:active, #asidebar #social li a:focus {
-    text-decoration: none;
-    outline: none;
-    color: #228896;
+    flex: 1;
 }
 
 @media screen and (max-width: 800px), print {
