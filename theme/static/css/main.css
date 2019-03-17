@@ -79,14 +79,15 @@ thead {
     line-height: 1em;
     margin: 0 20px 1em 0;
 }
-
-.info {
+article > footer {
     text-align: right;
+    font-size: 1rem;
 }
-.info a {
-    color: inherit;
+article > footer span.newthought {
+    font-size: 1rem;
 }
-.info a.tags {
+
+article > footer a.tags {
     background: #CCC;
     color: #FFF;
     display: inline-block;
@@ -95,11 +96,11 @@ thead {
     border-radius: 5px;
     margin: 0 0 0.3em 0;
 }
-.info a.tags:hover {
+article > footer a.tags:hover {
     background: inherit;
     color: inherit;
 }
-.info a.tags.selected {
+article > footer a.tags.selected {
     border: 1px #999 solid;
 }
 

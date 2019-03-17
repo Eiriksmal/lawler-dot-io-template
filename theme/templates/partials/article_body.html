@@ -15,18 +15,15 @@
 
                 {{ article.content }}
 
-                <div class="info">
-                    <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
-                    {% if article.category.name != "misc" %}
-                    &nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
-                    {% endif %}
+                <footer>
+                    <span class="newthought">Finalized at {{ article.date.strftime("%-I:%M %p")}}</span>
                     {% if article.tags %}
                     &nbsp;&middot;
                     {% for t in article.tags %}
                     &nbsp;<a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
                     {% endfor %}
                     {% endif %}
-                </div>
+                </footer>
 		{% if articles_page and DISQUS_SITENAME %}
 		<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Click to read and post comments</a>
 		{% else %}
