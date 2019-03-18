@@ -189,12 +189,69 @@ article > header > p {
     margin: 0;
     font-size: 1rem;
 }
-
+/* aside + nav-bar = asidebar! */
 #asidebar {
     padding: 8rem 0 0 4rem;
 }
 
-#asidebar.disappear {
+#asidebar #logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#asidebar .main-menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#asidebar .main-menu ul li {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+#asidebar .main-menu ul li a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    position: relative;
+    padding: 10px 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+#asidebar .main-menu ul li a:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 7px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(17, 17, 17, 0.7);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#asidebar .main-menu ul li a:hover {
+    text-decoration: none;
+}
+#asidebar .main-menu ul li a:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+#asidebar #social {
+    text-align: center;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#asidebar #social li {
+    margin: 0;
+    display: inline;
+    list-style: none;
+    flex: 1;
 }
 
 @media screen and (max-width: 1200px) {
@@ -244,66 +301,6 @@ article > header > p {
     #asidebar {
         padding-left: 0;
     }
-}
-
-#asidebar #logo {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-#asidebar .main-menu ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-#asidebar .main-menu ul li {
-    margin: 0 0 20px 0;
-    padding: 0;
-    list-style: none;
-}
-#asidebar .main-menu ul li a {
-    color: #111;
-    text-decoration: none;
-    position: relative;
-    padding: 10px 10px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-#asidebar .main-menu ul li a:after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    bottom: 7px;
-    left: 10px;
-    right: 10px;
-    background-color: rgba(17, 17, 17, 0.7);
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-#asidebar .main-menu ul li a:hover {
-    text-decoration: none;
-}
-#asidebar .main-menu ul li a:hover:after {
-    visibility: visible;
-    transform: scaleX(1);
-}
-
-#asidebar #social {
-    text-align: center;
-    padding: 0;
-    margin: 2rem 0 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#asidebar #social li {
-    margin: 0;
-    display: inline;
-    list-style: none;
-    flex: 1;
 }
 
 /* make <del>s accessible to screen readers. Thanks, MDN! */
