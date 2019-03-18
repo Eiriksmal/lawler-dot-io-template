@@ -296,6 +296,10 @@ blockquote .sidenote, blockquote .marginnote {
     text-align: left;
 }
 
+article img {
+    width: 100%;
+}
+
 div.fullwidth, table.fullwidth {
     width: 100%;
 }
@@ -431,8 +435,4 @@ label.margin-toggle:not(.sidenote-number) {
     div.table-wrapper, table {
         width: 85%;
     }
-
-    /*img {*/
-        /*width: 100%;*/
-    /*}*/
 }
