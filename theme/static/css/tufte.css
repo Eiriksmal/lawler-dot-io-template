@@ -3,8 +3,8 @@
 @font-face {
     font-family: "et-bembo";
     src: local('ET Bembo RomanLF'), local('ETBembo-RomanLF'),
-    url("fonts/et-bembo-roman-line-figures/et-bembo-roman-line-figures.woff") format("woff"),
-    url("fonts/et-bembo-roman-line-figures/et-bembo-roman-line-figures.ttf") format("truetype");
+    url("/fonts/et-bembo-roman-line-figures/et-bembo-roman-line-figures.woff") format("woff"),
+    url("/fonts/et-bembo-roman-line-figures/et-bembo-roman-line-figures.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -12,15 +12,15 @@
 @font-face {
     font-family: "et-bembo";
     src: local("ET Bembo DisplayItalic"), local('ETBembo-DisplayItalic'),
-    url("fonts/et-bembo-display-italic-old-style-figures/et-bembo-display-italic-old-style-figures.woff") format("woff"),
-    url("fonts/et-bembo-display-italic-old-style-figures/et-bembo-display-italic-old-style-figures.ttf") format("truetype");
+    url("/fonts/et-bembo-display-italic-old-style-figures/et-bembo-display-italic-old-style-figures.woff") format("woff"),
+    url("/fonts/et-bembo-display-italic-old-style-figures/et-bembo-display-italic-old-style-figures.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "et-bembo";
-    src: local("ET Bembo BoldLF"), local('ETBembo-BoldLF'), url("fonts/et-bembo-bold-line-figures/et-bembo-bold-line-figures.woff") format("woff"), url("fonts/et-bembo-bold-line-figures/et-bembo-bold-line-figures.ttf") format("truetype");
+    src: local("ET Bembo BoldLF"), local('ETBembo-BoldLF'), url("/fonts/et-bembo-bold-line-figures/et-bembo-bold-line-figures.woff") format("woff"), url("/fonts/et-bembo-bold-line-figures/et-bembo-bold-line-figures.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
@@ -28,8 +28,8 @@
 @font-face {
     font-family: "et-bembo-roman-old-style";
     src: local("ET Bembo RomanOSF"), local('ETBembo-RomanOSF'),
-    url("fonts/et-bembo-roman-old-style-figures/et-bembo-roman-old-style-figures.woff") format("woff"),
-    url("fonts/et-bembo-roman-old-style-figures/et-bembo-roman-old-style-figures.ttf") format("truetype");
+    url("/fonts/et-bembo-roman-old-style-figures/et-bembo-roman-old-style-figures.woff") format("woff"),
+    url("/fonts/et-bembo-roman-old-style-figures/et-bembo-roman-old-style-figures.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

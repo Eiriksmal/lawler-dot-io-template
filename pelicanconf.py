@@ -74,7 +74,7 @@ TAGS_URL = 'tags'
 STATIC_PATHS = [
     'images',
     'static',
-    'css'
+    'fonts'
     ]
 
 EXTRA_PATH_METADATA = {
