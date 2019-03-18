@@ -18,9 +18,11 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 em {
     font-style: italic;
 }
+
 strong {
     font-weight: bold;
 }
@@ -32,17 +34,21 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -65,23 +71,29 @@ blockquote {
 ul.vault {
     list-style-type: circle
 }
+
 article > footer {
     text-align: right;
 }
+
 .de-emphasize {
     font-size: 1rem;
     color: rgba(17, 17, 17, 0.5);
 }
+
 /* Pygment is .highlight. Make everything the same width as Tufte paragraphs. */
 div.highlight, article footer {
     width: 60%;
 }
+
 .highlight {
     border-radius: 3px;
 }
+
 .code > .highlight {
     border-radius: 0 3px 3px 0;
 }
+
 .linenos {
     border-radius: 3px 0 0 3px;
     background-color: #073642;
@@ -89,10 +101,12 @@ div.highlight, article footer {
     color: #586E75;
     text-shadow: 0 -1px #021014;
 }
+
 td.code {
     width: 100%;
     max-width: 100px;
 }
+
 .linenos a {
     color: #586E75;
 }
@@ -129,6 +143,7 @@ header .header_box {
     color: #444;
     border-radius: 5px;
 }
+
 .pages a.next_page {
     float: right;
     width: 140px;
@@ -137,6 +152,7 @@ header .header_box {
     border-bottom-right-radius: 5px;
     background-color: #EEE;
 }
+
 .pages a.prev_page {
     float: left;
     width: 140px;
@@ -145,13 +161,16 @@ header .header_box {
     border-bottom-left-radius: 5px;
     background-color: #EEE;
 }
+
 .pages a {
     color: inherit;
     border: none;
 }
+
 .pages a:hover {
     background-color: #DDD;
 }
+
 .pages span {
     display: block;
     margin: 0 160px;
@@ -163,21 +182,27 @@ code {
     border-radius: 4px;
     box-sizing: border-box;
     color: #C7254E;
-    font-family: Consolas,Monaco,Menlo,"Courier New",monospace;
+    font-family: Consolas, Monaco, Menlo, "Courier New", monospace;
     line-height: 18px;
     padding: 2px 4px;
     white-space: nowrap;
 }
 
 pre {
-    font-family: Consolas,Monaco,Menlo,"Courier New",monospace;
+    font-family: Consolas, Monaco, Menlo, "Courier New", monospace;
 }
 
-footer p { margin: 0; }
+footer p {
+    margin: 0;
+}
 
-.right { float: right; }
+.right {
+    float: right;
+}
 
-.clear { clear: both; }
+.clear {
+    clear: both;
+}
 
 main {
     padding: 0 4rem 0 6rem;
@@ -189,6 +214,7 @@ article > header > p {
     margin: 0;
     font-size: 1rem;
 }
+
 /* aside + nav-bar = asidebar! */
 #asidebar {
     padding: 8rem 0 0 4rem;
@@ -204,11 +230,13 @@ article > header > p {
     margin: 0;
     padding: 0;
 }
+
 #asidebar .main-menu ul li {
     margin: 0 0 20px 0;
     padding: 0;
     list-style: none;
 }
+
 #asidebar .main-menu ul li a {
     color: rgb(17, 17, 17);
     text-decoration: none;
@@ -216,6 +244,7 @@ article > header > p {
     padding: 10px 10px;
     transition: 0.3s;
 }
+
 #asidebar .main-menu ul li a:after {
     content: "";
     position: absolute;
@@ -228,9 +257,11 @@ article > header > p {
     transform: scaleX(0);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 #asidebar .main-menu ul li a:hover {
     text-decoration: none;
 }
+
 #asidebar .main-menu ul li a:hover:after {
     visibility: visible;
     transform: scaleX(1);
@@ -245,6 +276,7 @@ article > header > p {
     justify-content: space-evenly;
     align-items: center;
 }
+
 #asidebar #social li {
     margin: 0;
     display: inline;
@@ -266,6 +298,7 @@ article > header > p {
     main {
         padding-left: 4rem;
     }
+
     #asidebar {
         padding-left: 2rem;
     }
@@ -437,27 +470,34 @@ del::after {
     }
 
 }
+
 @media print {
     * {
         background: #fff;
     }
+
     main > article {
         padding-top: 0;
     }
+
     main {
         width: 100%;
         padding: 0;
     }
+
     #asidebar {
         display: none;
     }
+
     img {
         break-inside: avoid;
     }
+
     p, table, pre {
         widows: 3;
         orphans: 3;
     }
+
     h1, h2, h3, h4, h5, h6 {
         break-after: avoid;
     }
