@@ -118,29 +118,6 @@ article pre, .page pre {
     overflow: auto;
 }
 
-form.inline_edit {
-    clear: both;
-    margin: 4.5em 0;
-    background-color: #DDD;
-    color: #000;
-    padding: 20px;
-    border-radius: 5px;
-}
-.inline_edit .sub {
-    color: #888;
-    white-space: nowrap;
-}
-.inline_edit label {
-    float: left;
-    clear: both;
-    width: 140px;
-    margin-right: 20px;
-}
-.inline_edit .buttons {
-    display: block;
-    text-align: right;
-}
-
 header .header_box {
     padding-top: 4.5em;
 }
