@@ -380,6 +380,37 @@ article > header > p {
     }
 }
 
+@media screen and (max-width: 420px) {
+    #asidebar #logo img {
+        max-width: 80px;
+    }
+
+    #asidebar .main-menu ul {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    #asidebar .main-menu ul li {
+        float: none;
+        margin-bottom: 8px;
+    }
+
+    #asidebar #social {
+        display: none;
+    }
+
+    #asidebar nav {
+        max-width: 170px;
+    }
+
+    main > footer {
+        padding-bottom: 0.5rem;
+    }
+}
+
 /* make <del>s accessible to screen readers. Thanks, MDN! */
 del::before,
 del::after {

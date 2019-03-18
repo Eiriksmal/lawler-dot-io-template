@@ -220,6 +220,7 @@ article a:link {
     background-position: 0 93%, 100% 93%, 0 93%;
 }
 
+/* make underlines sungglier on jobsphones */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     article a:link {
         background-position-y: 87%, 87%, 87%;
