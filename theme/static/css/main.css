@@ -336,8 +336,14 @@ del::after {
     * {
         background: #fff;
     }
-
-    header, nav {
+    main > article {
+        padding-top: 0;
+    }
+    main {
+        width: 100%;
+        padding: 0;
+    }
+    #asidebar {
         display: none;
     }
     img {
@@ -350,16 +356,5 @@ del::after {
     h1, h2, h3, h4, h5, h6 {
         break-after: avoid;
     }
-    h1, h2 {
-        font-size: 14pt;
-    }
-    h3, h4 {
-        font-size: 12pt;
-    }
-    article p, article ul li, article ol li, article table {
-        font-size: 11pt;
-    }
 }
-@page {
-    margin: 1.5cm;
-}
+
