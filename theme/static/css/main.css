@@ -214,8 +214,6 @@ article > header > p {
     text-decoration: none;
     position: relative;
     padding: 10px 10px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 #asidebar .main-menu ul li a:after {
@@ -275,13 +273,35 @@ article > header > p {
 
 /* sidebar mobile-ish break that coincides with Tufte's sidenotes disappearing */
 @media screen and (max-width: 760px) {
+    body {
+        display: block;
+    }
+
     main {
         padding-right: 4rem;
         overflow-x: hidden;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    body > main > article:first-of-type {
+        padding-top: 0;
+    }
+
+    body > main > article:last-of-type {
+        padding-bottom: 4rem;
     }
 
     div.highlight, article footer {
         width: 100%;
+    }
+
+    #asidebar {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2rem 0 0 4rem;
     }
 
     #asidebar #logo img {
@@ -289,17 +309,74 @@ article > header > p {
     }
 
     #asidebar #logo {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
 
     #asidebar .main-menu ul {
         margin: 0 0 2em 0;
     }
+
+    #asidebar nav {
+        padding-left: 2rem
+    }
+
+    #asidebar .main-menu ul {
+        text-align: left
+    }
+
+    #asidebar .main-menu ul li {
+        float: left;
+        margin: 0;
+        padding: 0 0.25rem;
+    }
+
+    #asidebar .main-menu ul li a:hover:after {
+        display: none;
+    }
+
+    #asidebar .main-menu ul li a {
+        transition: none;
+        padding: 0;
+        margin-left: 0.25rem;
+    }
+
+    #asidebar .main-menu ul li a:link {
+        text-decoration: none;
+        background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#333, #333);
+        background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+        background-position: 0 93%, 100% 93%, 0 93%;
+    }
+
+    #asidebar .main-menu ul li a:link::selection {
+        text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+        background: #b4d5fe;
+    }
+
+    #asidebar .main-menu ul li a:link::-moz-selection {
+        text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+        background: #b4d5fe;
+    }
+
+    #asidebar #social {
+        padding-left: 2rem;
+        display: block;
+        margin: 0;
+    }
+
+    #asidebar #social li {
+        padding-left: 0.25rem
+    }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 600px) {
+    main {
+        padding: 0 2rem;
+    }
+
     #asidebar {
-        padding-left: 0;
+        padding: 2rem 2rem 0 2rem
     }
 }
 
