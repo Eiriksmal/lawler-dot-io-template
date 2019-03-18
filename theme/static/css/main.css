@@ -62,14 +62,6 @@ blockquote {
     border-left: 1px solid #EEE;
 }
 
-table {
-    width: 100%;
-    margin: 1em 0;
-}
-thead {
-    border-bottom: 1px solid black;
-}
-
 ul.vault {
     list-style-type: circle
 }
@@ -315,7 +307,6 @@ article > header > p {
 }
 #asidebar .main-menu ul li a:hover {
     text-decoration: none;
-    color: black;
 }
 #asidebar .main-menu ul li a:hover:after {
     visibility: visible;
