@@ -37,7 +37,7 @@ MARKDOWN = {
 }
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['eric_extensions', 'neighbors', 'sitemap']
+PLUGINS = ['eric_extensions', 'neighbors', 'sitemap', 'yuicompressor']
 
 THEME = 'theme'
 LOGO = '/images/logo.png'
@@ -50,6 +50,8 @@ SITEMAP = {
     'format': 'xml',
     'exclude': ['tags/', 'author/', 'categories/']
 }
+
+YUICOMPRESSOR_EXECUTABLE = 'yuicompressor'
 
 ARTICLE_URL = 'scrivings/{slug}'
 ARTICLE_SAVE_AS = 'scrivings/{slug}/index.html'
