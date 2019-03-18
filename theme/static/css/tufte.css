@@ -292,7 +292,7 @@ blockquote .sidenote, blockquote .marginnote {
 }
 
 article img {
-    width: 100%;
+    max-width: 100%;
 }
 
 div.fullwidth, table.fullwidth {
