@@ -16,7 +16,7 @@
                 {{ article.content }}
 
                 <footer class="de-emphasize">
-                    Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.
+                    <p>Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.
                         Improved on {{ article.modified.strftime("%B %d, %Y @ %-I:%M %p")}}{% endif %}
                     {% if article.tags %}
                     &nbsp;&middot; Tagged with
