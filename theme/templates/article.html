@@ -10,7 +10,7 @@
     {% endif %}
 {% endblock %}
 
-{% block title %}{{ SITENAME }} | {{ article.title }}{% endblock %}
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
 
 {% block content %}
 {% include "partials/article_body.html" %}
