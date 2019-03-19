@@ -59,14 +59,6 @@
         {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
         <footer>
             {% include 'partials/copyright.html' %}
-            <p>
-             {% if FEED_ALL_ATOM %}
-            <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
-             {% endif %}
-             {% if FEED_ALL_RSS %}
-            &middot;
-            <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate">RSS Feed</a>
-             {% endif %}
         </footer>
         {% endif %}
     </main>
