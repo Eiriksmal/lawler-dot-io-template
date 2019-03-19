@@ -86,7 +86,7 @@ EXTRA_PATH_METADATA = {
 
 # Theme extras
 MENUITEMS = [
-  ('Vault', 'archives'),
+  ('Vault', 'archives/'),
 ]
 
 SOCIAL = (
