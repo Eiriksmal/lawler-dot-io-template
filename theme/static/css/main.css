@@ -58,7 +58,6 @@ strong {
 }
 
 body {
-    line-height: 1;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -107,7 +106,6 @@ article > footer {
 }
 
 .de-emphasize {
-    font-size: 1rem;
     color: rgba(17, 17, 17, 0.5);
 }
 
@@ -166,45 +164,15 @@ header .header_box {
     padding-top: 4.5em;
 }
 
-.pages {
-    line-height: 2.5em;
-    margin: 4.5em 0 3em;
-    background-color: #F9F9F9;
-    color: #444;
-    border-radius: 5px;
+footer.paginator {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
 }
 
-.pages a.next_page {
-    float: right;
-    width: 140px;
-    text-align: center;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: #EEE;
-}
-
-.pages a.prev_page {
-    float: left;
-    width: 140px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background-color: #EEE;
-}
-
-.pages a {
-    color: inherit;
-    border: none;
-}
-
-.pages a:hover {
-    background-color: #DDD;
-}
-
-.pages span {
-    display: block;
-    margin: 0 160px;
-    text-align: center;
+footer.paginator > span.hide {
+    visibility: hidden;
 }
 
 code {
@@ -224,6 +192,7 @@ pre {
 
 footer p {
     margin: 0;
+    font-size: 1.2rem;
 }
 
 .right {
@@ -349,10 +318,6 @@ article > header > p {
 
     body > main > article:first-of-type {
         padding-top: 0;
-    }
-
-    body > main > article:last-of-type {
-        padding-bottom: 4rem;
     }
 
     div.highlight, article footer {
@@ -611,7 +576,7 @@ article:first-of-type {
 }
 
 article:last-of-type {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 section {
