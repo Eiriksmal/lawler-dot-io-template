@@ -108,6 +108,10 @@ article > footer {
 .de-emphasize {
     color: rgba(17, 17, 17, 0.5);
 }
+.copyright {
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
 
 /* Pygment is .highlight. Make everything the same width as Tufte paragraphs. */
 div.highlight, article footer {
