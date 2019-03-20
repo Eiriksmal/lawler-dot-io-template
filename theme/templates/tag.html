@@ -1,3 +1,11 @@
 {% extends "index.html" %}
 {% block title %}Scrivings tagged "{{ tag }}" {% if articles_page.number != 1 %} | Page {{ articles_page.number }}{% endif %} | {{ SITENAME }}{% endblock %}
 
+{% block content %}
+    <article class="intro">
+        <header><h1>Scrivings tagged <em>{{ tag }}</em></h1>
+            <p><span class="newthought">See also: <a href="{{ SITEURL }}/tags/">all tags</a></span>
+        </header>
+    </article>
+{{ super() }}
+{% endblock %}}
