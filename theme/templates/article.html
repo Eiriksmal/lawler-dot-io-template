@@ -8,6 +8,10 @@
     {% if article.description %}
     <meta name="description" content="{{ article.description }}" />
     {% endif %}
+
+    {% if article.status == 'draft' %}
+    <meta name="robots" content="noindex" />
+    {% endif %}
 {% endblock %}
 
 {% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
