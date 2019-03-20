@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITENAME }}{% if articles_page.number != 1 %} | Page {{ articles_page.number }}{% endif %}{% endblock %}
+{% block title %}Eric Lawler - Software engineering servant-leader{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}{% endblock %}
 {% block content %}
 {% for article in articles_page.object_list %}
 {%   include "partials/article_body.html" %}
