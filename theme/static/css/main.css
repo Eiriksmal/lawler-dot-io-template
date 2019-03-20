@@ -68,16 +68,6 @@ ol, ul {
     list-style: none;
 }
 
-blockquote, q {
-    quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -89,12 +79,6 @@ ul {
 
 ol {
     list-style: outside decimal;
-}
-
-blockquote {
-    margin: 1.5em 1.5em 1.5em .75em;
-    padding-left: .75em;
-    border-left: 1px solid #EEE;
 }
 
 ul.vault {
@@ -618,19 +602,23 @@ div.epigraph > blockquote > footer {
     font-style: normal;
 }
 
-div.epigraph > blockquote > footer > cite {
+blockquote > footer > cite {
     font-style: italic;
 }
 
 /* end chapter epigraphs styles */
 
 blockquote {
+    margin-block-end: 21px;
+    margin-block-start: 21px;
+    margin-inline-end: 40px;
+    margin-inline-start: 40px;
+    margin: 21px 40px;
     font-size: 1.4rem;
 }
 
 blockquote p {
     width: 60%;
-    margin-right: 40px;
 }
 
 blockquote footer {
