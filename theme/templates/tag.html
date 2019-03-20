@@ -1,5 +1,3 @@
 {% extends "index.html" %}
 {% block title %}Scrivings tagged "{{ tag }}" {% if articles_page.number != 1 %} | Page {{ articles_page.number }}{% endif %} | {{ SITENAME }}{% endblock %}
-{% block ephemeral_nav %}
-                {{ ephemeral_nav_link(tag, output_file, True) }}
-{% endblock %}
+
