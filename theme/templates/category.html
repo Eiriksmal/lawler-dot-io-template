@@ -1,6 +1,14 @@
 {% extends "index.html" %}
 {% block title %}Scrivings in {{ category }} {% if articles_page.number != 1 %} | Page {{ articles_page.number }}{% endif %} | {{ SITENAME }}{% endblock %}
 {% block ephemeral_nav %}
-
                 {{ ephemeral_nav_link(category, output_file, True) }}
 {% endblock %}
+
+{% block content %}
+    <article class="intro">
+        <header><h1>Scrivings in <em>{{ category }}</em></h1>
+            <p><span class="newthought">See also: <a href="{{ SITEURL }}/categories/">all categories</a></span>
+        </header>
+    </article>
+    {{ super() }}
+{% endblock %}}

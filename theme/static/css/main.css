@@ -563,6 +563,10 @@ article:first-of-type {
     padding: 4rem 0;
 }
 
+article.intro {
+    padding-bottom: 0;
+}
+
 article:last-of-type {
     padding-bottom: 4rem;
 }
