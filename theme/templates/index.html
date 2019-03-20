@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block head %}
+    {{ super() }}
+    <meta name="description" content="Eric Lawler, San-Diego based software engineering leader: Scrivings, musings and more" />
+{% endblock %}
+
 {% block title %}Eric Lawler - Software engineering servant-leader{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}{% endblock %}
 {% block content %}
 {% for article in articles_page.object_list %}
