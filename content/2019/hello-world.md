@@ -1,7 +1,6 @@
 Title: Hello, World
-Date: 2019-03-20 00:04
+Date: 2019-03-20 01:11
 Category: Errata
-Tags: tests, programming
 Status: Published
 Summary: We all have to start somewhere&hellip;
 description: Eric Lawler's Lawler.io: What's it all about then?
