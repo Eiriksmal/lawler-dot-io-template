@@ -31,7 +31,7 @@ My goal was to create the fastest-possible website using the brain-dead easiest 
 
 This website is a <a href="https://en.wikipedia.org/wiki/Static_web_page" rel="noopener" target=_blank>static site</a> created by <a href="https://blog.getpelican.com/" rel="noopener" target=_blank>Pelican</a>, a Python static site generator. I added a few custom Python extensions to bend the Jinja2 templating engine to my will.
 
-I created the theme myself&mdash;both the desktop and mobile variants. The basis for the theme is Dave Liepmann's <a href="https://edwardtufte.github.io/tufte-css/" rel="noopener" target=_blank>Edward Tufte CSS</a>, which powers the lovely serifed font and gorgeous margin notes you see throughout the site.
+I created the theme myself&mdash;both the desktop and mobile variants. The basis for the theme is Dave Liepmann's <a href="https://edwardtufte.github.io/tufte-css/" rel="noopener" target=_blank>Edward Tufte CSS</a>, which powers the lovely serifed font and gorgeous margin notes you see throughout the site. The code highlighting theme is Solarized Dark, my preferred color theme for... everything.
 
 The website is hosted by <a href="https://cloud.digitalocean.com/" rel="noopener" target=_blank>Digital Ocean</a><label for="sn-do" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-do" class="margin-toggle"><span class="marginnote">Why not AWS? That question deserves a standalone article. The short answer: Market competition benefits everyone.</span>, running nginx and CentOS 7 Linux. #redhatforlife
 
