@@ -37,7 +37,7 @@ This brief missive is lawler.io's *Hello, World!*, if you will. In the weeks to 
 <footer>Eliahu M. Goldratt, <cite>The Goal</cite> (1984), pg 32</footer>
 </blockquote>
 
-My goal for this website is multi-fold:
+My goals for this website are straightforward:
 
 1. Allow me to keep my writing skills sharp, lest they rust in the withering deluge of texts, emails, and social media lols.
 2. Give me a space to better understand my own thoughts by typing them out.
