@@ -70,8 +70,8 @@ AUTHOR_SAVE_AS = ''
 TAG_URL = 'tags/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 
-ARCHIVES_SAVE_AS = 'archives/index.html'
-ARCHIVES_URL = 'archives/'
+ARCHIVES_SAVE_AS = 'scrivings/index.html'
+ARCHIVES_URL = 'scrivings/'
 AUTHORS_SAVE_AS = ''
 CATEGORIES_SAVE_AS = 'categories/index.html'
 CATEGORIES_URL = 'categories'
@@ -91,7 +91,7 @@ EXTRA_PATH_METADATA = {
 
 # Theme extras
 MENUITEMS = [
-  ('Vault', 'archives/'),
+  ('Vault', 'scrivings/'),
 ]
 
 SOCIAL = (
