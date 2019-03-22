@@ -1,18 +1,28 @@
+{%- macro pagination_base_link(title, page_number) %}
+    {% set final_url = SITEURL + "/" %}
+
+    {% if page_name != 'index' %}
+        {% set final_url = final_url + page_name %}
+    {% endif %}
+
+    {% if page_number > 1 %}
+        {% set final_url = final_url + "page/" + page_number|string %}
+    {% endif %}
+
+   <a href="{{ final_url }}">{{ title }}</a>
+{% endmacro %}
+
 {% if DEFAULT_PAGINATION and (articles_page.has_previous() or articles_page.has_next()) %}
     <article>
         <footer class="paginator">
             {%- if articles_page.has_previous() %}
-                {%   if articles_page.previous_page_number() == 1 %}
-                    <a href="{{ SITEURL }}/">&larr;&nbsp;Press into the future</a>
-                {%-   else %}
-                    <a href="{{ SITEURL }}/page/{{ articles_page.previous_page_number() }}">&larr;&nbsp;Press into the future</a>
-                {%-   endif %}
+                {{ pagination_base_link("&larr;&nbsp;Press into the future", articles_page.previous_page_number()) }}
                 <span>Page {{ articles_page.number }} of {{ articles_paginator.num_pages }}</span>
             {%- else %}
                 <span class="hide">Retreat into the past&nbsp;&rarr;</span>
             {%- endif %}
             {%- if articles_page.has_next() %}
-                <a href="{{ SITEURL }}/page/{{ articles_page.next_page_number() }}">Retreat into the past&nbsp;&rarr;</a>
+                {{ pagination_base_link("Retreat into the past&nbsp;&rarr;", articles_page.next_page_number()) }}
             {%- else %}
             <span class="hide">Retreat into the past&nbsp;&rarr;</span>
             {%- endif %}
