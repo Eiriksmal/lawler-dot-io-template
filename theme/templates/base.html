@@ -33,14 +33,12 @@
     {% endif %}
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" type="text/css" />
     <meta name="author" content="{{ AUTHOR }}" />
-    {% endblock head %}
+    {%- endblock head %}
 </head>
 <body>
     <aside id="asidebar">
         <div id="logo">
-            <a href="{{ SITEURL }}/">
-                <img src="{{ LOGO }}" alt="Lawler.io logo" />
-            </a>
+            <a href="{{ SITEURL }}/"><img src="{{ LOGO }}" alt="Lawler.io logo" /></a>
         </div>
         <nav class="main-menu">
             {% include 'partials/main_nav.html' %}
