@@ -1,4 +1,9 @@
 {% extends "index.html" %}
+{%- block head -%}
+    {{ super() }}
+    <meta name="robots" content="noindex" />
+{%- endblock %}
+
 {% block title %}Scrivings tagged "{{ tag }}" {% if articles_page.number != 1 %} | Page {{ articles_page.number }}{% endif %} | {{ SITENAME }}{% endblock %}
 
 {% block content %}
