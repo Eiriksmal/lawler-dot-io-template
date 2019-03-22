@@ -2,7 +2,7 @@
                 <header>
                     {% if article.title %}
                     <h1>
-                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" {% if page_name is undefined %}class="no-line"{% endif %} title="Permanent link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" {% if page_name is undefined %}class="no-line"{% endif %} title="Permanent link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>{% if article.status == 'draft' %} &mdash; DRAFT {% endif %}
                     </h1>
                     {% endif %}
 
@@ -12,8 +12,12 @@
                     {% endif %}
                 </header>
 
-
                 {{ article.content }}
+
+                {% if article.status == 'draft' %}
+                <section>
+                    <hr><p>This is a draft. Please send me <em>any</em> thoughts you have. Thanks!
+                </section>{% endif %}
 
                 <footer class="de-emphasize">
                     <p>Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.

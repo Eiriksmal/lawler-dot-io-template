@@ -631,7 +631,7 @@ blockquote footer {
     text-align: right;
 }
 
-section > p, section > footer, section > table {
+section > p, section > footer, section > table, section > hr {
     width: 60%;
 }
 
