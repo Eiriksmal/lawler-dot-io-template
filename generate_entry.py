@@ -5,7 +5,7 @@ from datetime import datetime
 
 TEMPLATE = """
 Title: {title}
-Date: {year}-{month}-{day} {hour}:{minute:02d}
+Date: {year}-{month:02d}-{day} {hour}:{minute:02d}
 Category: Dross
 Tags:
 Description: META
@@ -24,7 +24,12 @@ def generate_entry(title):
 
     # Will attempt to make the year's directory. Does not throw an error if it exists
     os.makedirs("content/{}".format(today.year), exist_ok=True)
-    f_create = "content/{}/{}.md".format(today.year, slug)
+    new_article = "content/{}/{}.md".format(today.year, slug)
+
+    if os.path.exists(new_article):
+        print("Error. Article already exists. Not overwriting.")
+        return
+
     t = TEMPLATE.strip().format(title=title,
                                 year=today.year,
                                 month=today.month,
@@ -32,9 +37,9 @@ def generate_entry(title):
                                 hour=today.hour,
                                 minute=today.minute,
                                 slug=slug)
-    with open(f_create, 'w') as w:
+    with open(new_article, 'w') as w:
         w.write(t)
-    print("Article ready for editing: " + f_create)
+    print("Article ready for editing: " + new_article)
 
 
 if __name__ == '__main__':
