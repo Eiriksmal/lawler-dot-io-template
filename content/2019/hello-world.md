@@ -4,7 +4,7 @@ Category: Dross
 Tags: meta
 Status: Published
 Summary: We all have to start somewhere&hellip;
-description: Eric Lawler's Lawler.io: What's it all about then?
+Description: Eric Lawler's Lawler.io: What's it all about then?
 
 <section markdown="1">
 ## The Beginning
