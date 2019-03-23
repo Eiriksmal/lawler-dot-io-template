@@ -183,14 +183,6 @@ footer p {
     font-size: 1.2rem;
 }
 
-.right {
-    float: right;
-}
-
-.clear {
-    clear: both;
-}
-
 main {
     padding: 0 4rem 0 6rem;
     max-width: 1000px;
@@ -384,6 +376,10 @@ article > header > p {
     #asidebar #social li {
         padding-left: 0.25rem
     }
+
+    article pre, article code {
+        white-space: pre-wrap;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -445,13 +441,6 @@ del::before {
 
 del::after {
     content: " [deletion end] ";
-}
-
-@media screen and (max-width: 800px), print {
-    article pre, article code {
-        white-space: pre-wrap;
-    }
-
 }
 
 @media print {
@@ -857,7 +846,7 @@ label.margin-toggle:not(.sidenote-number) {
     }
 
     figcaption, figure.fullwidth figcaption {
-        margin-right: 0%;
+        margin-right: 0;
         max-width: none;
     }
 
