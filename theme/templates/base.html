@@ -32,6 +32,7 @@
     <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS.format(slug=tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
     {% endif %}
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" type="text/css" />
+    <link rel="preload" href="{{ SITEURL }}/fonts/et-bembo-roman-line-figures/et-bembo-roman-line-figures.woff" as="font" type="font/woff" crossorigin>
     <meta name="author" content="{{ AUTHOR }}" />
     {%- endblock head %}
 </head>
