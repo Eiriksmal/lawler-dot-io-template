@@ -5,7 +5,7 @@ from datetime import datetime
 
 TEMPLATE = """
 Title: {title}
-Date: {year}-{month:02d}-{day} {hour}:{minute:02d}
+Date: {year}-{month:02d}-{day:02d} {hour}:{minute:02d}
 Category: Dross
 Tags:
 Description: META
