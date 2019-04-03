@@ -2,6 +2,8 @@
 
 This is it. Everything you need to clone [Lawler.io](https://lawler.io) is here.
 
+The _master_ branch was [renamed](https://stackoverflow.com/questions/53377423/removing-github-profile-repos-from-google-search) to _main_ so Google and friends won't crawl its contents.
+
 ## About the website
 
 When computer-programming/engineering types have a website, it's traditional to <del>brag about</del> explain the technology used to create and serve the site. I have no idea who actually reads these summaries, but for posterity's sake&hellip;
