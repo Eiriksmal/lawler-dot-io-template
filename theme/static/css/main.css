@@ -223,7 +223,6 @@ article > header > p {
     text-decoration: none;
     position: relative;
     padding: 10px 10px;
-    transition: 0.3s;
 }
 
 #asidebar .main-menu ul li a:after {
@@ -349,7 +348,6 @@ article > header > p {
     }
 
     #asidebar .main-menu ul li a {
-        transition: none;
         padding: 0;
         margin-left: 0.25rem;
     }
