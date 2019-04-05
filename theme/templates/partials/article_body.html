@@ -20,10 +20,10 @@
                 </section>{% endif %}
 
                 <footer class="de-emphasize">
-                    <p>Finalized at {{ article.date.strftime("%-I:%M %p")}}{% if article.modified %}.
-                        Improved on {{ article.modified.strftime("%B %d, %Y @ %-I:%M %p")}}{% endif %}
-                    {% if article.tags %}
-                    &nbsp;&middot; Tagged with
+                    <p>Finalized at {{ article.date.strftime("%-I:%M %p")}}.
+                        {% if article.modified %}Tidied up on {{ article.modified.strftime("%B %d, %Y @ %-I:%M %p")}}.{% endif %}
+                    {%- if article.tags %}
+                    <p>Tagged with
                     {% for t in article.tags %}
                     <a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>{%
                         if loop.length > 2 and loop.nextitem is defined and loop.index0 < loop.length - 2 %}, {%
