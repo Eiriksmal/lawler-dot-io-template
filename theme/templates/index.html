@@ -5,11 +5,13 @@
     <meta name="description" content="Eric Lawler, San-Diego based software engineering leader: Scrivings, musings and more" />
 {%- endblock %}
 
-{% block title %}Eric Lawler - Software engineering servant-leader{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}{% endblock %}
-{% block content %}
-{% for article in articles_page.object_list %}
-{%   include "partials/article_body.html" %}
-{% endfor %}
+{% block title %}Eric Lawler - Servant-leader CTO{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}{% endblock %}
 
-{% include "partials/pagination.html" %}
+{% block content %}
+    {% for article in articles_page.object_list %}
+    {%   include "partials/article_body.html" %}
+    {% if loop.nextitem is defined %}<hr class="separator{% if loop.index0 > 0 %} extra{% endif %}">{% endif %}
+    {% endfor %}
+
+    {% include "partials/pagination.html" %}
 {% endblock %}
