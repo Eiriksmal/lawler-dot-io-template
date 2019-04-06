@@ -55,9 +55,7 @@ Statistical fluctuations are the possible range of time a task can take. If the 
 
 <div class="epigraph"><blockquote><p>We always run, never stop; the other option, having some workers idle, is taboo.<footer>Goldratt, 1984, p. 113</footer></blockquote></div>
 
-Local maxima are useless. The *entire* system must be optimized. All processing centers *cannot* have the same capacity. Downstream centers need *additional* capacity to absorb the statistical fluctuations from upstream centers.
-
-(More to come as I finish digesting the final portion of the book)
+Local maxima are useless.<label for="mn-morelater" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-morelater" class="margin-toggle"><span class="marginnote">(More to come as I finish digesting the final portion of the book)</span> The *entire* system must be optimized. All processing centers *cannot* have the same capacity. Downstream centers need *additional* capacity to absorb the statistical fluctuations from upstream centers.
 </section>
 <section markdown="1">
 ## Curious what to read next?
