@@ -37,6 +37,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.sane_lists': {},
         'markdown.extensions.meta': {},
+        'markdown.extensions.smarty': {},
     },
     'output_format': 'html5',
 }
