@@ -1,6 +1,6 @@
 Title: Long-form websites and typography
 Date: 2019-04-08 22:48
-Modified: 2019-04-09 08:20
+Modified: 2019-04-09 10:42
 Category: Dross
 Tags: meta, long-form
 Description: A brief explanation of typography, readability, and the temporal nature of content in the age of Medium.com blog posts.
@@ -72,7 +72,7 @@ I digress. The real thing that Medium.com has changed is expectations on what "l
 
 In fact, that's the second point in the quote I led off with. "I don't understand why I'm being forced to scroll." Though we can be assured Mr. Holmes is willing to scroll on a computer to read long articles, most of the people on the internet can't be bothered. Buzzfeed knows this. Medium.com knows this, too.
 
-But is there another form of consumer? Is there a form of content on the internet that takes longer than 5 minute sto read? Is anyone writing longer articles that repulse the casual surfer, mindlessly flicking through links on their iPhone X? Apparently, such a fiend does exist! Quietly typing away, hundreds of individuals are crafting articles designed to be truly thought-provoking, to stand the test of time and Deserve To Be Read decades later.
+But is there another form of consumer? Is there a form of content on the internet that takes longer than 5 minutes to read? Is anyone writing longer articles that repulse the casual surfer, mindlessly flicking through links on their iPhone X? Apparently, such a fiend does exist! Quietly typing away, hundreds of individuals are crafting articles designed to be truly thought-provoking, to stand the test of time and Deserve To Be Read decades later.
 
 Gwern's <label for="mn-metoo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-metoo" class="margin-toggle"><span class="marginnote">I, too, quietly tidy up these <del>humble</del> scrivings, tightening them over time. Full edit histories, with explanatory commit messages, are [in GitHub](https://github.com/Eiriksmal/lawler-dot-io/tree/main/content) for interested parties.</span> taken this approach to the next level---he continuously updates his posts as he learns new information on the topic. His experiments will have periodic updates for years. Years!
 
