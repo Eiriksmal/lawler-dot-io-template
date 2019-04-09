@@ -19,7 +19,7 @@ Despite taking more words to describe the same concepts, *The Phoenix Project* i
 </section>
 <section markdown="1">
 ## Key takeaways
-While <del>stuck at jury duty</del> chosen to serve the lovely people of beautiful San Diego County, I took the following notes.<label for="mn-meta" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-meta" class="margin-toggle"><span class="marginnote">Anything in quotes is a direct quote. Everything else is my synthesis.</span>
+While <del>stuck at jury duty</del> chosen to serve the lovely people of beautiful San Diego County, I took the following notes. <label for="mn-meta" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-meta" class="margin-toggle"><span class="marginnote">Anything in quotes is a direct quote. Everything else is my synthesis.</span>
 <div class="epigraph"><blockquote><p>Productivity is meaningless unless you know what your goal is.<footer>Goldratt, 1984, p. 32</footer></blockquote></div>
 ### Building the foundation (pages 32-59)
 <p>The goal is to **make money**. Profit, ROI, and cash flow measure this. Efficiencies, good people, high tech solutions, selling quality products, capturing market share, etc.---these merely *enable* a company to make money, but should never be confused with The Goal.</p>
@@ -29,7 +29,7 @@ Net profit and a solid ROI is not enough to stay in business. Cash flow is vital
 <span class="newthought" markdown="span">**THE GOAL**</span> is <label for="mn-thegoal" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-thegoal" class="margin-toggle"><span class="marginnote">All three must increase at the same time---no cheating for short-term pops in share price.</span> "to make money by increasing net profit, while simultaneously increasing return on investment, while simultaneously increasing cash flow." (page 49)
 
 ### Defining the terms (pages 60-75)
-Measurements for daily operation of a manufacturing plant.<label for="mn-expl" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-expl" class="margin-toggle"><span class="marginnote">Put another way, throughput is money coming in. Inventory is money circulating inside the system. Opex is money paid <em>out</em> to make that throughput money come <em>in</em>.</span> These are a form of expressing "The" Goal in terms a plant understands (Mr. Behr does something similar for IT work in *The Phoenix Project*). See if you can pick up the common element:
+Measurements for daily operation of a manufacturing plant. <label for="mn-expl" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-expl" class="margin-toggle"><span class="marginnote">Put another way, throughput is money coming in. Inventory is money circulating inside the system. Opex is money paid <em>out</em> to make that throughput money come <em>in</em>.</span> These are a form of expressing "The" Goal in terms a plant understands (Mr. Behr does something similar for IT work in *The Phoenix Project*). See if you can pick up the common element:
 
 - Throughput: The rate at which the system generates <u>money</u> through sales.
 - Inventory: All the <u>money</u> that the system has invested in purchasing things it intends to sell.
@@ -56,11 +56,11 @@ Statistical fluctuations are the possible range of time a task can take. If the 
 
 <div class="epigraph"><blockquote><p>We always run, never stop; the other option, having some workers idle, is taboo.<footer>Goldratt, 1984, p. 113</footer></blockquote></div>
 
-Local maxima are useless.<label for="mn-morelater" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-morelater" class="margin-toggle"><span class="marginnote">(More to come as I finish digesting the final portion of the book)</span> The *entire* system must be optimized. All processing centers *cannot* have the same capacity. Downstream centers need *additional* capacity to absorb the statistical fluctuations from upstream centers.
+Local maxima are useless. <label for="mn-morelater" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-morelater" class="margin-toggle"><span class="marginnote">(More to come as I finish digesting the final portion of the book)</span> The *entire* system must be optimized. All processing centers *cannot* have the same capacity. Downstream centers need *additional* capacity to absorb the statistical fluctuations from upstream centers.
 </section>
 <section markdown="1">
 ## Curious what to read next?
-Ken Cone, CTO of Radeus Labs<label for="mn-ken" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-ken" class="margin-toggle"><span class="marginnote">CTO, co-owner, and lean manufacturing wizard!</span>, encourages anyone interested in the ToC to turn to Dr. Goldratt's followup, *Critical Chain*. It provides a detailed explanation of the drum-buffer-rope methodology for controlling the flow of materials through bottlenecks.
+Ken Cone, CTO of Radeus Labs <label for="mn-ken" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-ken" class="margin-toggle"><span class="marginnote">CTO, co-owner, and lean manufacturing wizard!</span>, encourages anyone interested in the ToC to turn to Dr. Goldratt's followup, *Critical Chain*. It provides a detailed explanation of the drum-buffer-rope methodology for controlling the flow of materials through bottlenecks.
 
 If you like this kind of un-orthodox thinking, and are involved in software development, you should also read *Kanban: Successful Evolutionary Change for Your Technology Business* by David J. Anderson, inventor of the Kanban (capital K) agile software method. He takes a similarly counter-intuitive principle---limiting how many simultaneous tasks development teams can work on---and builds on it to create flexible solutions that scale from 2-man teams all the way up to Microsoft-levels of bureaucracy.
 </section>
