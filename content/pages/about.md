@@ -35,5 +35,5 @@ I created the theme myself&mdash;both the desktop and mobile variants. The basis
 
 The website is hosted by <a href="https://cloud.digitalocean.com/" rel="noopener" target=_blank>Digital Ocean</a><label for="sn-do" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-do" class="margin-toggle"><span class="marginnote">Why not AWS? That question deserves a standalone article. The short answer: Market competition benefits everyone.</span>, running nginx and CentOS 7 Linux. #redhatforlife
 
-Lastly, everything is checked into git with my usual level of detail (and delightful sprinkling of wackiness). I'm obsessed with the Annotate feature in the JetBrains IDEs. Eschewing PyCharm, I used my existing copy of PHPStorm throughout development.
+Lastly, everything is [checked into git](https://github.com/Eiriksmal/lawler-dot-io) with my usual level of detail (and delightful sprinkling of wackiness). I'm obsessed with the Annotate feature in the JetBrains IDEs. Eschewing PyCharm, I used my existing copy of PHPStorm throughout development.
 </section>
