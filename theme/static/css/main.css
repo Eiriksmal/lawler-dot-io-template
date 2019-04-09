@@ -868,8 +868,17 @@ label.margin-toggle:not(.sidenote-number) {
         width: 100%;
     }
 
+    label.sidenote-number {
+        text-decoration: underline;
+        color: #6087dd;
+    }
+
     label.margin-toggle:not(.sidenote-number) {
         display: inline;
+        font-size: 1.2rem;
+        color: #6087dd;
+        vertical-align: super;
+        margin-left: -4px;
     }
 
     .sidenote, .marginnote {
