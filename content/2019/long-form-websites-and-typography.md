@@ -8,7 +8,8 @@ Status: Published
 
 <section markdown="1">
 ## Or, how to build an anti-Medium.com
-<span class="newthought">Two curiously-related pieces</span> of content were shared on Hacker News today. The first was a short article by [Joshua Li](https://jrl.ninja/etc/1), explaining how a few basic CSS styles can make for a great-looking website---across varying devices. The second was a longer post by Marco Fioretti on how [Google is "forgetting" the old web](http://stop.zona-m.net/2018/01/indeed-it-seems-that-google-is-forgetting-the-old-web/).
+
+Two curiously-related pieces of content were shared on Hacker News today. The first was a short article by [Joshua Li](https://jrl.ninja/etc/1), explaining how a few basic CSS styles can make for a great-looking website---across varying devices. The second was a longer post by Marco Fioretti on how [Google is "forgetting" the old web](http://stop.zona-m.net/2018/01/indeed-it-seems-that-google-is-forgetting-the-old-web/).
 
 The latter post kicked up the usual fierce debates <label for="mn-seo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-seo" class="margin-toggle"><span class="marginnote">...and people arguing about whether a search engine should actually return results matching what you type in.</span> around whether the internet is still an open place if *one* gatekeeper determines whether you can find and read certain content.
 
@@ -34,7 +35,8 @@ It took several iterations to strike [the right balance](https://github.com/Eiri
 </section>
 <section markdown="1">
 ## What's this have to do with the other article?
-<span class="newthought">The Fioretti article references</span> a serious problem with the most-used search engine on the planet: It literally will not answer search results for sites that are "too old." This could be a post written in 2007, or 2012. No one knows exactly how the Google algorithms rank and prune pages.
+
+The Fioretti article references a serious problem with the most-used search engine on the planet: It literally will not answer search results for sites that are "too old." This could be a post written in 2007, or 2012. No one knows exactly how the Google algorithms rank and prune pages.
 
 Lawler.io was inspired by [Gwern](https://www.gwern.net/About), a self-proclaimed "freelance writer & researcher who lives in Virginia." He wrote something concerning his own website that runs deeply counter to the current online culture: Gwern.net is home to "stable long-term essays which improve over time."
 
@@ -80,5 +82,6 @@ My aspiration is to create some substantive content that Deserves To Be Read. Wh
 </section>
 <section markdown="1">
 ## The answer
-<span class="newthought">What do these two articles</span> have to do with one another? Simple: My website was designed to fit into both categories. An aesthetically-pleasing, easy-to-read website with no tracking codes. A home for long-form content that repulses article skimmers. A place for writing that Google will certainly ignore in 5 years.
+
+What do these two articles have to do with one another? Simple: My website was designed to fit into both categories. An aesthetically-pleasing, easy-to-read website with no tracking codes. A home for long-form content that repulses article skimmers. A place for writing that Google will certainly ignore in 5 years.
 </section>

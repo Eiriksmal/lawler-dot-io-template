@@ -9,7 +9,8 @@ Status: Published
 
 <section markdown="1">
 ## King of business books
-<span class="newthought">*The Goal* remains one of the best business books.</span> Facts are true. Their truth does not change with the passage of time. No matter how our hairstyles evolve and computers continue to shrink, the <a href="https://en.wikipedia.org/wiki/Theory_of_constraints" target=_blank rel="noopener">theory of constraints</a> remains a powerful explanation for how work is accomplished. Very few business books have stood this same test of time.
+
+*The Goal* remains one of the best business books. Facts are true. Their truth does not change with the passage of time. No matter how our hairstyles evolve and computers continue to shrink, the <a href="https://en.wikipedia.org/wiki/Theory_of_constraints" target=_blank rel="noopener">theory of constraints</a> remains a powerful explanation for how work is accomplished. Very few business books have stood this same test of time.
 
 30 years after his initial book was published, an anniversary edition was released containing praise from Kevin Behr, a co-author of *The Phoenix Project*<label for="sn-phoenix" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-phoenix" class="margin-toggle"><span class="sidenote" markdown="1">Mr. Behr's book is an attempt to rewrite *The Goal* for computer-y types---ditching the manufacturing setting for the dull vinyl flooring of a Fortune 1000 company's IT department.</span>. <blockquote><p>Now more than ever, *The Goal* is my first recommendation for CIOs, CTOs and DevOps to better see What to Change, What to Change to and just How to Cause the Change. Thank you, Eli!<footer>Kevin Behr, co-author of *The Phoenix Project*</footer></blockquote>
 
