@@ -37,3 +37,6 @@ The website is hosted by <a href="https://cloud.digitalocean.com/" rel="noopener
 
 Lastly, everything is [checked into git](https://github.com/Eiriksmal/lawler-dot-io) with my usual level of detail (and delightful sprinkling of wackiness). I'm obsessed with the Annotate feature in the JetBrains IDEs. Eschewing PyCharm, I used my existing copy of PHPStorm throughout development.
 </section>
+<section markdown="1">
+<em>(Are you a proud member of the 0.001% who use feed readers? Lawler.io has an Atom feed available [here](https://lawler.io/feeds/all.atom.xml).)</em>
+</section>
