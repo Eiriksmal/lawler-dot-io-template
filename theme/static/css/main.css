@@ -611,20 +611,18 @@ blockquote > footer > cite {
 /* end chapter epigraphs styles */
 
 blockquote {
-    margin-block-end: 21px;
-    margin-block-start: 21px;
-    margin-inline-end: 40px;
-    margin-inline-start: 40px;
-    margin: 21px 40px;
+    margin: 1.4rem 40px;
     font-size: 1.4rem;
+    padding-left: 1.4rem;
+    border-left: 2px solid rgba(17, 17, 17, 0.1);
 }
 
 blockquote p {
-    width: 60%;
+    width: 59%;
 }
 
 blockquote footer {
-    width: 60%;
+    width: 59%;
     font-size: 1.1rem;
     text-align: right;
 }
@@ -860,7 +858,7 @@ label.margin-toggle:not(.sidenote-number) {
     }
 
     blockquote {
-        margin-left: 1.5em;
+        margin-left: 0;
         margin-right: 0;
     }
 
