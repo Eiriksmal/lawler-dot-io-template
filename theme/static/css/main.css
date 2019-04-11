@@ -877,6 +877,7 @@ label.margin-toggle:not(.sidenote-number) {
         color: #6087dd;
         vertical-align: super;
         margin-left: -4px;
+        text-decoration: underline;
     }
 
     .sidenote, .marginnote {
