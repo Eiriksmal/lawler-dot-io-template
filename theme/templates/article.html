@@ -6,7 +6,7 @@
     <meta name="keywords" content="{{ article.tags|join(',') }}" />
     {% endif %}
     {% if article.description %}
-    <meta name="description" content="{{ article.description }}" />
+    <meta name="description" content="{{ article.description | e }}" />
     {% endif %}
 
     {% if article.status == 'draft' %}
