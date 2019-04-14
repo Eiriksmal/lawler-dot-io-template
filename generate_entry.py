@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys, os
+import sys, os, re
 from datetime import datetime
 
 TEMPLATE = """
@@ -20,7 +20,7 @@ Status: Draft
 
 def generate_entry(title):
     today = datetime.today()
-    slug = title.lower().strip().replace(' ', '-')
+    slug = re.sub('[^a-zA-Z\-]', '', title.lower().strip().replace(' ', '-'))
 
     # Will attempt to make the year's directory. Does not throw an error if it exists
     os.makedirs("content/{}".format(today.year), exist_ok=True)
