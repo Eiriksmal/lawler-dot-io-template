@@ -1,7 +1,10 @@
 from datetime import datetime
 
+
 def current_copyright(unused):
-    """Return the copyright footer """
+    """
+    Return the copyright footer. Ignores the mandatory Jinja parameter.
+    """
     first = 2019
     year = datetime.now().strftime('%Y')
     diff = int(year) - first
