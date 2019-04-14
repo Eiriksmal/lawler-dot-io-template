@@ -9,7 +9,6 @@ Date: {year}-{month:02d}-{day:02d} {hour}:{minute:02d}
 Category: Dross
 Tags:
 Description: META
-Summary:
 Status: Draft
 
 <section markdown="1">

@@ -3,8 +3,7 @@ Date: 2019-04-02 22:33
 Modified: 2019-04-04 21:04
 Category: Business
 Tags: books, management, notes, reference, long-form
-Description: Eric's key takeaways from Eliyahu M. Goldratt's The Goal.
-Summary: The Goal is still one of my favorite business books. The theory of constraints manifests itself everywhere! These are notes I took during my second read through.
+Description: Key takeaways from Eliyahu M. Goldratt's The Goal. The Goal is still one of my favorite business books. The theory of constraints manifests itself everywhere! These are notes I took during my second read-through.
 Status: Published
 
 <section markdown="1">

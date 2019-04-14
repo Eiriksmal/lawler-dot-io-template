@@ -3,8 +3,7 @@ Date: 2019-03-20 01:11
 Category: Dross
 Tags: meta
 Status: Published
-Summary: We all have to start somewhere&hellip;
-Description: Eric Lawler's Lawler.io: What's it all about then?
+Description: Eric Lawler's Lawler.io: What's it all about then? 1. Practice for better long-form writing. 2. A medium to understand my own thoughts. 3. A resource for others.
 
 <section markdown="1">
 ## The Beginning
