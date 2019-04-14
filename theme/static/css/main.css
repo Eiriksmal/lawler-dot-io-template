@@ -84,6 +84,9 @@ ol {
 ul.vault {
     list-style-type: circle
 }
+p.list {
+    margin-bottom: 3rem;
+}
 
 article > footer {
     text-align: right;

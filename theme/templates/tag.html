@@ -11,6 +11,12 @@
         <header><h1>Scrivings tagged <em>{{ tag }}</em></h1>
             <p><span class="newthought">See also: <a href="{{ SITEURL }}/tags/">all tags</a></span>
         </header>
+        <section>
+            {% for article in articles %}
+
+            <p class="list"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a><br><em>{{ article.locale_date }}</em><br>{{ article.description | typographic_escape | safe }}
+            </p>
+            {% endfor %}
+        </section>
     </article>
-{{ super() }}
 {% endblock %}}
