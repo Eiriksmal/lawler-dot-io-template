@@ -37,6 +37,9 @@
     <meta property="og:url" content="{{ SITEURL }}/{% if article is defined %}{{ article.url }}{% elif page is defined %}{{ page.url }}{% else %}{{ SITEURL }}{% endif %}">
     <link rel="author" href="{{ SITEURL }}/about/">
     <meta name="author" content="{{ AUTHOR }}" />
+    <meta name="title" content="{{ self.og_title() }}" />
+    <meta name="description" content="{% block meta_description %}{{ SITEMETA }}{% endblock meta_description %}" />
+    <meta property="og:description" content="{{ self.meta_description() }}">
     <meta property="og:site_name" content="{{ SITETITLE }}">
     <meta property="og:title" content="{% block og_title %}{{ SITENAME }}{% endblock og_title %}">
     <meta property="og:image" content="{% block og_image %}{{ SITEURL }}/images/eric_head.jpg{% endblock og_image %}">

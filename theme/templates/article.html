@@ -6,10 +6,6 @@
     <meta name="keywords" content="{{ article.tags|join(',') }}" />
     <meta property="article:tag" content="{{ article.tags|join(',') }}" />
     {% endif %}
-    {% if article.description %}
-    <meta name="description" content="{{ article.description | e }}" />
-    <meta property="og:description" content="{{ article.description | e }}">
-    {% endif %}
 
     {% if article.status == 'draft' %}
     <meta name="robots" content="noindex" />
@@ -25,6 +21,7 @@
 
 {% block title %}{{ article.title | e }} | {{ SITENAME }}{% endblock %}
 {% block og_title %}{{ article.title | e }}{% endblock %}
+{% block meta_description %}{{ article.description | e }}{% endblock %}
 
 {% block content %}
 {% include "partials/article_body.html" %}

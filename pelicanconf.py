@@ -104,3 +104,4 @@ SOCIAL = (
 )
 
 TWITTER_HANDLE = "@Eiriksmal"
+SITEMETA = "Eric Lawler, San-Diego based software engineering leader: Scrivings, musings and more"

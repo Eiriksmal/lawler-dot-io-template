@@ -3,11 +3,6 @@
 {% block head %}
     {{ super() }}
 
-    {% if page.description %}
-    <meta name="description" content="{{ page.description | e }}" />
-    <meta property="og:description" content="{{ page.description | e }}">
-    {% endif %}
-
     {% if page.status == 'draft' %}
     <meta name="robots" content="noindex" />
     {% endif %}
@@ -21,6 +16,7 @@
 
 {% block title %}{{ page.title | e }} | {{ SITENAME }}{% endblock %}
 {% block og_title %}{{ page.title | e }}{% endblock %}
+{% block meta_description %}{{ page.description | e }}{% endblock %}
 
 {% block content %}
 {% include "partials/page_body.html" %}
