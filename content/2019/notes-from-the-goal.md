@@ -58,8 +58,9 @@ Statistical fluctuations are the possible range of time a task can take. If the 
 Local maxima are useless. <label for="mn-morelater" class="margin-toggle">&#8224;</label><input type="checkbox" id="mn-morelater" class="margin-toggle"><span class="marginnote">(More to come as I finish digesting the final portion of the book)</span> The *entire* system must be optimized. All processing centers *cannot* have the same capacity. Downstream centers need *additional* capacity to absorb the statistical fluctuations from upstream centers.
 </section>
 <section markdown="1">
-## Curious what to read next?
-Ken Cone, CTO of Radeus Labs <label for="mn-ken" class="margin-toggle">&#8224;</label><input type="checkbox" id="mn-ken" class="margin-toggle"><span class="marginnote">CTO, co-owner, and lean manufacturing wizard!</span>, encourages anyone interested in the ToC to turn to Dr. Goldratt's followup, *Critical Chain*. It provides a detailed explanation of the drum-buffer-rope methodology for controlling the flow of materials through bottlenecks.
+<h2 id="what-next">Curious what to read next?</h2>
+
+Ken Cone, CTO of Radeus Labs, <label for="mn-ken" class="margin-toggle">&#8224;</label><input type="checkbox" id="mn-ken" class="margin-toggle"><span class="marginnote">CTO, co-owner, and lean manufacturing wizard!</span> encourages anyone interested in the ToC to turn to Dr. Goldratt's followup, *Critical Chain*. It provides a detailed explanation of the drum-buffer-rope methodology for controlling the flow of materials through bottlenecks.
 
 If you like this kind of un-orthodox thinking, and are involved in software development, you should also read *Kanban: Successful Evolutionary Change for Your Technology Business* by David J. Anderson, inventor of the Kanban (capital K) agile software method. He takes a similarly counter-intuitive principle---limiting how many simultaneous tasks development teams can work on---and builds on it to create flexible solutions that scale from 2-man teams all the way up to Microsoft-levels of bureaucracy.
 </section>
