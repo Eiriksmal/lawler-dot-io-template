@@ -102,3 +102,5 @@ SOCIAL = (
   ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
   ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),
 )
+
+TWITTER_HANDLE = "@Eiriksmal"
