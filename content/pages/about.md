@@ -1,5 +1,7 @@
 Title: About
 Date: 2019-03-15 12:50
+Modified: 2019-04-09 16:10
+Description: Eric Lawler--who is this red-headed CTO? More about me and this website than you ever cared to know.
 
 <section markdown="1">
 About the man

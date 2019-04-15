@@ -1,5 +1,6 @@
 Title: Contact
 Date: 2019-03-16 16:48
+Description: How to get in touch with Eric Lawler. Feel free to email me whatever's on your mind. Contact information buried within.
 
 <section markdown="1">
 Get in touch
