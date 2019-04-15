@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Eric Lawler'
 SITENAME = u'Eric Lawler'
+SITETITLE = u'Lawler.io | Eric Lawler - Servant-leader CTO'
 SITEURL = ''
 
 PATH = 'content'
@@ -46,7 +47,7 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['eric_extensions', 'neighbors', 'sitemap', 'yuicompressor']
 
 THEME = 'theme'
-LOGO = '/images/logo.png'
+LOGO = 'images/logo.png'
 
 DEFAULT_CATEGORY = 'Dross'
 

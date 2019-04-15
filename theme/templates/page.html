@@ -1,6 +1,26 @@
 {% extends "base.html" %}
 
-{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+{% block head %}
+    {{ super() }}
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | e }}" />
+    <meta property="og:description" content="{{ page.description | e }}">
+    {% endif %}
+
+    {% if page.status == 'draft' %}
+    <meta name="robots" content="noindex" />
+    {% endif %}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ page.date.strftime('%Y-%m-%dT%H:%M:%S.%f') }}">
+    {% if page.modified %}
+    <meta property="article:modified_time" content="{{ page.modified.strftime('%Y-%m-%dT%H:%M:%S.%f') }}">
+    {% endif %}
+    <meta property="article:author" content="{{ AUTHOR }}" />
+{% endblock %}
+
+{% block title %}{{ page.title | e }} | {{ SITENAME }}{% endblock %}
+{% block og_title %}{{ page.title | e }}{% endblock %}
 
 {% block content %}
 {% include "partials/page_body.html" %}
