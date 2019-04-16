@@ -540,7 +540,7 @@ hr {
     height: 1px;
     width: 60%;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid rgba(17, 17, 17, 0.1);
     margin: 1em 0;
     padding: 0;
 }
