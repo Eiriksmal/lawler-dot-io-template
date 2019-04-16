@@ -267,6 +267,18 @@ article > header > p {
     flex: 1;
 }
 
+section.available {
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+section.available p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px dashed rgba(17,17,17,0.2);
+    border-bottom: 1px dashed rgba(17,17,17,0.2);
+}
+
 @media screen and (max-width: 1200px) {
     main {
         padding-right: 0;
