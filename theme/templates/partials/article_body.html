@@ -6,7 +6,8 @@
                     </h1>
                     {% endif %}
 
-                    <p><span class="newthought">Written {{ article.locale_date }}</span></p>
+                    <p><span class="newthought">{{ AUTHOR }}</span></p>
+                    <p><span class="newthought">{{ article.locale_date }}</span></p>
                     {% if article.category.name != "" %}
                         <p><span class="newthought">Filed under &ldquo;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>&rdquo;</span></p>
                     {% endif %}
