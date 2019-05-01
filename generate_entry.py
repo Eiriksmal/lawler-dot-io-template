@@ -19,7 +19,7 @@ Status: Draft
 
 def generate_entry(title):
     today = datetime.today()
-    slug = re.sub('[^a-zA-Z\-]', '', title.lower().strip().replace(' ', '-'))
+    slug = re.sub('[^a-zA-Z0-9\-]', '', title.lower().strip().replace(' ', '-'))
 
     # Will attempt to make the year's directory. Does not throw an error if it exists
     os.makedirs("content/{}".format(today.year), exist_ok=True)
