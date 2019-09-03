@@ -1,4 +1,4 @@
-Title: No plan survives being misquoted
+Title: No Plan Survives Being Misquoted
 Date: 2019-08-20 13:12
 Category: Dross
 Tags: errata

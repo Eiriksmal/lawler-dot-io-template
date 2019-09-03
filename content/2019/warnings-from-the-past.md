@@ -1,4 +1,4 @@
-Title: Warnings from the past
+Title: Warnings from the Past
 Date: 2019-05-01 17:19
 Category: Dross
 Tags: books, reference

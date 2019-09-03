@@ -1,4 +1,4 @@
-Title: Long-form websites and typography
+Title: Long-Form Websites and Typography
 Date: 2019-04-08 22:48
 Modified: 2019-04-09 10:42
 Category: Dross

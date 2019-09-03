@@ -1,4 +1,4 @@
-Title: Notes From The Goal
+Title: Notes from The Goal
 Date: 2019-04-02 22:33
 Modified: 2019-04-04 21:04
 Category: Business
