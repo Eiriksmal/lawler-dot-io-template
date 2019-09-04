@@ -21,6 +21,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Uncomment these to test the feeds
+# FEED_DOMAIN = SITEURL
+# FEED_ALL_ATOM = 'feeds/all.atom.xml'
+# CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+
 DEFAULT_PAGINATION = 2
 
 PAGINATION_PATTERNS = (
@@ -104,4 +109,4 @@ SOCIAL = (
 )
 
 TWITTER_HANDLE = "@Eiriksmal"
-SITEMETA = "Eric Lawler, San-Diego based software engineering leader: Scrivings, musings and more"
+SITEMETA = "Eric Lawler, San-Diego based software engineering leader: Scrivings, musings, and more"
