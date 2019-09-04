@@ -1,7 +1,6 @@
 Title: Stuff I've Done
 Date: 2019-09-03 16:29
 Description: A list of all the random things people have paid me money to do.
-Status: Hidden
 
 <section markdown="1">
 ## What is this?
@@ -30,8 +29,9 @@ While working on trimming down my resume / CV in the summer of 2019, I realized 
     - Strategic roadmaps (creation and the inevitable immediate updates. I've yet to find a satisfying way of creating plans that work in agile environments.)
     - Various status update presentations at monthly all-hands meetings
 4. Business intelligence / reporting
-    - So very, very many MySQL reports on every aspect of business health and product usage 
+    - So very, very many MySQL reports on every aspect of business health and product usage. Visualized in a myriad of charting libraries and spreadsheets. 
     - Tableau visualizations (Looker > Tableau)
+    - Schema designs for reporting purposes
 5. DevOps<label for="sn-devops" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devops" class="margin-toggle"><span class="sidenote">When I started, this was called being a sysadmin</span>
     - nginx + Apache configs and tuning (webmaster)
     - MySQL + Postgres: care and feeding (database administrator)
@@ -41,11 +41,12 @@ While working on trimming down my resume / CV in the summer of 2019, I realized 
     - Helpdesk and all flavors of IT troubleshooting: Computers, phones, barcode scanners, scanners/printers/copiers, fax machines, Windows Domain / Active Directory, LDAP... 
     - VoIP / asterisk PBX (PoE all the things)
     - Networking hardware / routing (Ubiquiti > Cisco) + cabling and topography <span style="overflow-wrap: break-word">(Orangestripeorangegreenstripebluebluestripegreenbrownstripebrown)</span>
-    - PoE security cameras + zone minder server + all the disk management that goes with it (Seriously, PoE all the things)
-    - (Redhat) Linux server administration: CentOS, Amazon Linux, Fedora
+    - PoE security cameras + ZoneMinder server + all the disk management that goes with it (Seriously, PoE all the things)
+    - (Redhat) Linux server administration: CentOS, Amazon Linux, Fedora. Nagios. kvm.
+    - Mail server administration (and reputation management) in sendmail (SpamAssassin, SPF, and DKIM are your friends). 
     - Computer workstation (ugh, so many micro-ITX boxes!) and server design + builds (private kvm cloud FTW)
 7. Sales
-    - I jumped in to do dozens of sales followup calls in a pinch at Lawn Love. Good times. I got one "firm maybe" out of all the calls. 😅
+    - I jumped in to do dozens of sales followup calls in a pinch at Lawn Love. Good times. I got one firm "maybe" out of all the calls. 😅
     - Copywriting to make the funnel sing
     - CRO all the things
     - Various email drip campaigns in Customer.io
@@ -62,13 +63,13 @@ While working on trimming down my resume / CV in the summer of 2019, I realized 
     - Hiring strategies (for non-engineering departments)
 11. Actual Work
     - Driving a TUG MT around SDF, delivering trailered containers from docks to their waiting 747s (when the speedier, open-top TUG M1A wasn't available, that is). They have enough torque to pop a small wheelie, if launched correctly. 🙊
-    - Light mechanical work on a variety of Class 8 equipment: Diesel fuel filter changes, greasing zerks and trailer pads, filling oil and other fluids, checking tire pressure, etc. The last time I stood on a Detroit Diesel 13 engine to reach the top of a cab was in early 2011. My least-favorite part? Checking the oil on cabover Izusus--you inevitably get burned on something hot. Fuel filters on the Cummins ISX in International Prostasr similarly promised to burn you on a tie rod nearly blocking access from the driver's side of the truck. Sigh.
+    - Light mechanical work on a variety of Class 8 equipment: Diesel fuel filter changes, greasing zerks and trailer pads, filling oil and other fluids, checking tire pressure, etc. The last time I stood on a Detroit Diesel 13 engine to reach the top of a cab was in early 2011. My least-favorite part? Checking the oil on cab-over Izusus--you inevitably get burned on something hot. Fuel filters on the Cummins ISX in International Prostasr similarly promised to burn you on a tie rod that nearly blocks access from the driver's side of the truck. Sigh.
     - I'm a certified forklift operator. Does that expire?
-    - Backing 53' aluminum trailers into a trailer pad with a variety of single-axle day cabs and traditional sleepers. 😰😰 I never hit anything, not even with the less-maneuverable sleepers, but it was *never* not nerve-wracking. Driving an Eaton-Fuller 10-speed is easy, but embedding the "less is more" adage into your brain while staring out the sides of the truck, squinting at whether or not the trailer's about to hit the ones on either side? I have utmost respect for professional drivers. 🙇 (My DOT certification has definitely expired.) 
-    - Snow-plowing with this Serious Business work truck: ![F-350 with PTO and full snow plow and salt spreader](/images/2019/f-350-service-plow.jpg)
+    - Backing 53' aluminum trailers into a trailer pad with a variety of single-axle day cabs and traditional sleepers. 😰😰 I never hit anything, not even with the less-maneuverable sleepers, but it was *never* not nerve-wracking. Driving an Eaton-Fuller 10-speed is easy, but embedding the "less is more" adage into your brain while staring out the sides of the truck, squinting at whether or not the trailer's about to hit the ones on either side? I have utmost respect for professional drivers. 🙇 (My DOT certification has *definitely* expired.) 
+    - Snow-plowing, towing, and push-starting with this Serious Business work truck: ![F-350 with PTO and full snow plow and salt spreader](/images/2019/f-350-service-plow.jpg)
     - Hiking rental cars and trucks from Point A to B and back again.
     - Running millions of checks through 10' long, high-speed scanners.
-    - Spending hours thumbing through checks and their matching statements to pull out things that didn't reconcile in The Machine. Sigh.
-    - 10-key work! Even great OCR is hindered by bad scans.
+    - Spending hours thumbing through checks and their matching statements to pull out items that didn't reconcile in The Machine. Sigh.
+    - 10-key work! Even great OCR is hindered by bad scans and misprinted statements.
     
 </section>
