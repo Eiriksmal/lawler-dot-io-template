@@ -1,6 +1,6 @@
 Title: About
 Date: 2019-03-15 12:50
-Modified: 2019-04-09 16:10
+Modified: 2019-09-04 13:18
 Description: Eric Lawler--who is this red-headed CTO? More about me and this website than you ever cared to know.
 
 <section markdown="1">
@@ -15,13 +15,13 @@ About the man
  
 I help rapidly-growing companies conquer their growing pains and continue hockey-stick revenue charts. As a software engineer turned engineering leader, my servant-leadership philosophies and focus of working *on* the business, not only *in* the business, drive my results.
 
-(You've caught this website in a beta state: In the near future, this section will link you to my portfolio and resume, which explain who I am *in action*, rather than in mere words.)
+(You've caught this website in a beta state: In the near future, this section will link you to my portfolio and resume, which explain who I am *in action*, rather than in mere words. For now, you might be interested in this amusing [list of stuff I've been paid to do.](/stuff-ive-done/))
 
-My wife and I have been married for 8 years, in love for 12 years (and counting!), best friends for 13 years, and known each other for an astonishing 20 years now. We've expanded our family with a boisterous bunch of three boys: Ages 6, 3.5, and 10 months.
+My wife and I have been married for 8 years, in love for 13 years (and counting!), best friends for 14 years, and known each other for an astonishing 20 years now. We've expanded our family with a boisterous bunch of three boys: Ages 6.5, 4, and 1.5.
 
 "Reformed Evangelical Christian" is the most succinct description of my relationship with Jesus, the foundation of my worldview and source of my strong values.
 
-Outside the office, I'm a serious car enthusiast and gearhead (protip: reduce rotating drivetrain mass to increase smiles) and amateur photographer.
+Outside the office, I'm a serious car enthusiast and gearhead (protip: reduce rotating drivetrain mass to increase smiles per mile) and amateur photographer.
 </section>
 <section markdown="1">
 About the website
@@ -40,5 +40,5 @@ The website is hosted by <a href="https://cloud.digitalocean.com/" rel="noopener
 Lastly, everything is [checked into git](https://github.com/Eiriksmal/lawler-dot-io) with my usual level of detail (and delightful sprinkling of wackiness). I'm obsessed with the Annotate feature in the JetBrains IDEs. Eschewing PyCharm, I used my existing copy of PHPStorm throughout development.
 </section>
 <section markdown="1">
-<em>(Are you a proud member of the 0.001% who use feed readers? Lawler.io has an Atom feed available [here](https://lawler.io/feeds/all.atom.xml).)</em>
+<em>(Are you a proud member of the 0.001% who use feed readers? Lawler.io has an Atom feed available [here](https://lawler.io/feeds/all.atom.xml), but your reader should automatically discover the feed on any essay page.)</em>
 </section>
