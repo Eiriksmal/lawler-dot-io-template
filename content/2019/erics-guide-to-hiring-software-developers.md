@@ -1,6 +1,6 @@
 Title: Eric's Guide to Hiring {Software Developers}
 Date: 2019-08-30 18:05
-Modified: 2019-08-30 20:35
+Modified: 2019-09-06 10:09
 Category: Business
 Tags: long-form, hiring, management, series
 Description: First of a two-part series on the best strategies for hiring humans in the 21st century. Fueled by both personal experience and the experience of countless mentors (and recruiters), this gigantic post is bursting at the seams with knowledge. Though specifically written by a CTO-type, the strategies are useful for hiring any kind of white-collar role.
@@ -21,7 +21,7 @@ This prolix <del>essay</del> screed will serve as Eric's unofficial guide to hir
 
 *Disclosure 2*: Being a CTO, my area of hiring touched programming, product management, engineering management, and data analytics. I've never hired a customer service rep, an accountant, or someone who knows the difference between TIG and MIG welding. The core strategy is the same for hiring any role, but my experiences are strictly in white-collar work.<label for="mn-blue" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-blue" class="margin-toggle"><span class="marginnote">My experience getting hired for blue-collar work consisted of knowing the boss (x2) and fogging a mirror and passing a drug test (x1)</span>
 
-*Disclosure 3*: You really need to read *[Recruit Rockstars](https://www.barnesandnoble.com/w/recruit-rockstars-jeff-hyman/1127421157?ean=9781619618169)* by Jeff Hyman and *[Who: The A Method for Hiring](https://www.barnesandnoble.com/w/recruit-rockstars-jeff-hyman/1127421157?ean=9781619618169)* by Geoff Smart and Randy Street. These two books were able to explain *why* the best advice I got worked. Though Smart and Street argue otherwise, there's no universal, perfect method for hiring, but the philosophy shared by the two books is invaluable. Both books go into more detail, with plenty of backing evidence, for the strategies I lay out here. Of all the business books I read that touch on hiring, these were by far my favorite resources.
+*Disclosure 3*: You really need to read *[Recruit Rockstars](https://www.barnesandnoble.com/w/recruit-rockstars-jeff-hyman/1127421157?ean=9781619618169)* by Jeff Hyman and *[Who: The A Method for Hiring](https://www.barnesandnoble.com/w/who-geoff-smart/1103625712?ean=9780345504197)* by Geoff Smart and Randy Street. These two books were able to explain *why* the best advice I got worked. Though Smart and Street argue otherwise, there's no universal, perfect method for hiring, but the philosophy shared by the two books is invaluable. Both books go into more detail, with plenty of backing evidence, for the strategies I lay out here. Of all the business books I read that touch on hiring, these were by far my favorite resources.
 
 ## Hiring in the wild
 
