@@ -4,8 +4,7 @@ Modified: 2019-09-04 13:18
 Description: Eric Lawler--who is this red-headed CTO? More about me and this website than you ever cared to know.
 
 <section markdown="1">
-About the man
-------------
+## About the man
 
 ![My grinning face. The red hair doesn't distract from the overly-busy background...]({static}/images/eric_head.jpg)
 
@@ -24,8 +23,7 @@ My wife and I have been married for 8 years, in love for 13 years (and counting!
 Outside the office, I'm a serious car enthusiast and gearhead (protip: reduce rotating drivetrain mass to increase smiles per mile) and amateur photographer.
 </section>
 <section markdown="1">
-About the website
-------------
+## About the website
 
 When computer-programming/engineering types have a website, it's traditional to <del>brag about</del> explain the technology used to create and serve the site. I have no idea who actually reads these summaries, but for posterity's sake&hellip;
 
@@ -38,6 +36,15 @@ I created the theme myself&mdash;both the desktop and mobile variants. The basis
 The website is hosted by <a href="https://cloud.digitalocean.com/" rel="noopener" target=_blank>Digital Ocean</a><label for="sn-do" class="margin-toggle">&#8224;</label><input type="checkbox" id="sn-do" class="margin-toggle"><span class="marginnote">Why not AWS? That question deserves a standalone article. The short answer: Market competition benefits everyone.</span>, running nginx and CentOS 7 Linux. #redhatforlife
 
 Lastly, everything is [checked into git](https://github.com/Eiriksmal/lawler-dot-io) with my usual level of detail (and delightful sprinkling of wackiness). I'm obsessed with the Annotate feature in the JetBrains IDEs. Eschewing PyCharm, I used my existing copy of PHPStorm throughout development.
+
+### How to build this website
+<label for="mn-forme" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-forme" class="margin-toggle"><span class="marginnote">&hellip;so Eric doesn't forget.</span>
+This is pretty straightforward. You need pip<label for="sn-noyoudont" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-noyoudont" class="margin-toggle"><span class="sidenote">Okay, no, you don't *technically* need Pip, you can install all the Python .py files by hand, of course. And you'll have to when pip inevitably stops working in ~2028 because the world has moved on to the next great thing.</span>, the Python package manager:
+
+1. `pip install pelican`
+2. `pip install Markdown`
+3. `pip install yuicompressor`
+4. That's it! You can now run `make devserver` from the root directory and navigate to localhost:8000.
 </section>
 <section markdown="1">
 <em>(Are you a proud member of the 0.001% who use feed readers? Lawler.io has an Atom feed available [here](https://lawler.io/feeds/all.atom.xml), but your reader should automatically discover the feed on any essay page.)</em>
