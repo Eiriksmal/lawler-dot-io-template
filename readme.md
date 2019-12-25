@@ -3,6 +3,13 @@
 This is it. Everything you need to clone [Lawler.io](https://lawler.io) is here.
 
 The _master_ branch was [renamed](https://stackoverflow.com/questions/53377423/removing-github-profile-repos-from-google-search) to _main_ so Google and friends won't crawl its contents.
+## How to build this website
+You need pip, the Python package manager:
+
+1. `pip install pelican`
+2. `pip install Markdown`
+3. `pip install yuicompressor`
+4. That's it! You can now run `make devserver` from the root directory and navigate to localhost:8000.
 
 ## About the website
 
