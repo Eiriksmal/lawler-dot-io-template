@@ -81,6 +81,10 @@ ol {
     list-style: outside decimal;
 }
 
+ol ol {
+    list-style: lower-roman;
+}
+
 ul.vault {
     list-style-type: circle
 }
