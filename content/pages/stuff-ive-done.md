@@ -16,40 +16,44 @@ While working on trimming down my resume / CV in the summer of 2019, I realized 
     - SQL (Most devs are needlessly afraid of stored procedures, events, and triggers)
     - Perl (Perl's BFFs are sysadmins. It also plays well with asterisk)
     - <del>Erlang</del>, almost. The configs for ejabberd are written in Erlang...
+    - Java (for unlisted Android apps, of course)
     - VBA and a touch of VBScript ('04-'07. never again)
 2. Product
     - Design ("needs more padding!") and functionality (aka product management)
     - UX + UI (user experience: Branches through a workflow / how it works. User interface: how it looks)
-    - Project management (lite)
+    - Project management (...more than I would prefer)
     - Demo sessions and release presentations
+    - Solutions architect work: Helping prospective clients and enterprise customers solve their problems with a variety of technology solutions that may or may not involve my company actually writing more lines of code to accomplish them. From data warehouses to email marketing services, not everything needs to be a new feature in our application.
 3. Management
-    - [Hiring](/scrivings/erics-guide-to-hiring-software-developers)
+    - [Hiring](/scrivings/erics-guide-to-hiring-software-developers), from soup ("I think we're moving too slow. Can you quantify how another engineer will help us?") to nuts ("Please, for the love of all that is holy, make sure [he really does move here from Nebraska](https://github.com/daneeveritt) to work for us.")
+    - Firing<label for="sn-truly" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-truly" class="margin-toggle"><span class="sidenote">I truly believe the aphorism, cheesy though it is, that people fire themselves.</span> and all its related bureaucratic processes (PIPs, expectations documents, etc.).
     - 1:1s, performance reviews, coaching, mentoring, and everything needed for [the care and feeding of engineers](https://www.barnesandnoble.com/w/managing-humans-michael-lopp/1100351183)
-    - Performance improvement plans 😞
-    - Strategic roadmaps (creation and the inevitable immediate updates. I've yet to find a satisfying way of creating plans that work in agile environments.)
-    - Various status update presentations at monthly all-hands meetings
+    - Strategic roadmaps (creation and the inevitable immediate updates. I've yet to find a satisfying way of creating [plans that work in agile environments](/scrivings/on-agile-story-points).)
+    - Countless presentations at monthly all-hands meetings.
 4. Business intelligence / reporting
     - So very, very many MySQL reports on every aspect of business health and product usage. Visualized in a myriad of charting libraries and spreadsheets. 
-    - Tableau visualizations (Looker > Tableau)
-    - Schema designs for reporting purposes
+    - Tableau visualizations and data modeling (Looker > Tableau)--this ended up eating 7 months of my 2019...
+    - Some dabbling in Sisense (Sisense > Tableau)
+    - Schema designs for reporting purposes (I default to star schemas over the exercise in excess that are snowflake schemas)
 5. DevOps<label for="sn-devops" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devops" class="margin-toggle"><span class="sidenote">When I started, this was called being a sysadmin</span>
     - nginx + Apache configs and tuning (webmaster)
-    - MySQL + Postgres: care and feeding (database administrator)
+    - Docker and Ubuntu to improve CircleCI builds. Protip: Just use a custom Dockerfile.
+    - MySQL + Postgres + MongoDB: care and feeding (database administrator)
     - AWS (S3, EC2, OpsWorks [Chef], RDS, Route53, CloudFront, SNS, CloudWatch, EBS, MTurk)
-    - Heroku 🙄
+    - Heroku 🙄🤢
 6. IT
     - Helpdesk and all flavors of IT troubleshooting: Computers, phones, barcode scanners, scanners/printers/copiers, fax machines, Windows Domain / Active Directory, LDAP... 
     - VoIP / asterisk PBX (PoE all the things)
     - Networking hardware / routing (Ubiquiti > Cisco) + cabling and topography <span style="overflow-wrap: break-word">(Orangestripeorangegreenstripebluebluestripegreenbrownstripebrown)</span>
     - PoE security cameras + ZoneMinder server + all the disk management that goes with it (Seriously, PoE all the things)
-    - (Redhat) Linux server administration: CentOS, Amazon Linux, Fedora. Nagios. kvm.
-    - Mail server administration (and reputation management) in sendmail (SpamAssassin, SPF, and DKIM are your friends). 
+    - (Redhat) Linux server administration: CentOS, Amazon Linux, Fedora. Nagios. kvm. iptables. ssh. More things than I can possibly list.
+    - Actual, bonafide EMail server administration (and subsequent reputation management) in sendmail and postfix (SpamAssassin, SPF, and DKIM are your friends). 
     - Computer workstation (ugh, so many micro-ITX boxes!) and server design + builds (private kvm cloud FTW)
 7. Sales
-    - I jumped in to do dozens of sales followup calls in a pinch at Lawn Love. Good times. I got one firm "maybe" out of all the calls. 😅
+    - I jumped in to place dozens of sales followup calls in a pinch at Lawn Love. Good times. I got one firm "maybe" out of all the calls. 😅
     - Copywriting to make the funnel sing
     - CRO all the things
-    - Various email drip campaigns in Customer.io
+    - Various email drip campaigns in Customer.io and Mailchimp
 8. Marketing
     - PPC (Google AdWords campaigns + offline conversion imports)
     - SEO (microdata and rich snippets, page load speeds and responsive layouts... all sorts of *technical* SEO goodness, nothing resembling black-hat strategies eg PBNs or sleazy content marketing websites.)
