@@ -16,7 +16,7 @@ I help rapidly-growing companies conquer their growing pains and continue hockey
 
 (You've caught this website in a beta state: In the near future, this section will link you to my portfolio and resume, which explain who I am *in action*, rather than in mere words. For now, you might be interested in this amusing [list of stuff I've been paid to do.](/stuff-ive-done/))
 
-My wife and I have been married for 9 years, in love for 14 years (and counting!), best friends for 15 years, and known each other for an astonishing 20 years now. We've expanded our family with a boisterous bunch of three boys: Ages 7.5, 5, and 2.
+My wife and I have been married for 9 years, in love for 14 years (and counting!), best friends for 15 years, and known each other for an astonishing 20 years now. We've expanded our family with a boisterous bunch of boys: Ages 7.5, 5, and 2.
 
 "Reformed Evangelical Christian" is the most succinct description of my relationship with Jesus, the foundation of my worldview and source of my strong values.
 
