@@ -28,10 +28,12 @@ nVidia added Linux support for PRIME in early 2019 or so, judging from the dates
     6. And that's it. When you boot, you can sign things with that MOK key.
 4. Sign all the nVidia kernel modules with your DER key. You'll have to do this every time you update the nVidia drivers or install a new kernel. Same as VirtualBox. I have a simple sh script:
 ```bash
+KERNEL=$(uname -r)
+
 echo 'Signing kernel modules for nvidia...'
-for i in /usr/lib/modules/$(uname -r)/extra/nvidia/*ko; do
+for i in /usr/lib/modules/$KERNEL/extra/nvidia/*ko; do
   echo "...signing $i"
-  sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 my-private-key.priv  my-public-key.der "$i";
+  sudo /usr/src/kernels/$KERNEL/scripts/sign-file sha256 my-private-key.priv my-public-key.der "$i";
 done
 echo 'Starting kernel modules'
 sudo modprobe -v nvidia
@@ -44,6 +46,24 @@ To use your laptop's beefy nVidia GPU, append this environment string to whateve
 
 Steam launchers can be modified like so:
 `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia %command%`
+
+## Signing VirtualBox drivers
+1. Add a new MOK as in the nVidia instructions above.
+2. Find your driver:
+     - `updatedb && locate vboxdrv` ...or
+     - `modinfo -n vboxdrv`
+3. Sign it. (This is the path from the RPM Fusion repo.) 
+```bash
+KERNEL=$(uname -r)
+
+echo 'Signing kernel modules for VirtualBox...'
+for i in /lib/modules/$KERNEL/extra/VirtualBox/*ko; do
+  echo "...signing $i"
+  sudo /usr/src/kernels/$KERNEL/scripts/sign-file sha256 my-private-key.priv my-public-key.der "$i";
+done
+echo 'Starting kernel modules'
+sudo modprobe -v vboxdrv
+```
 
 ## Remapping caps lock to backspace, 2019 edition
 This one's a real mess, but I'm too lazy to type it out now. I'm trusting that this dangling appendage will <del>embarrass</del> shame me into completing it, since the new Ask Fedora is absolutely, 100% useless and all the old Ask Fedora content (now rebranded as Askbot.fedora.org) will vanish soon, including [Ahmad Samir's ridiculously useful answer](https://askbot.fedoraproject.org/en/question/37598/how-to-create-custom-keymaps-now-that-libudevkeymap-is-gone/) to my udev question from 2013.
