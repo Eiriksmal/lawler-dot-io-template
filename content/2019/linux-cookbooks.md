@@ -66,7 +66,7 @@ sudo modprobe -v vboxdrv
 ```
 
 ## Remapping caps lock to backspace, 2019 edition
-This one's a real mess, but I'm too lazy to type it out now. I'm trusting that this dangling appendage will <del>embarrass</del> shame me into completing it, since the new Ask Fedora is absolutely, 100% useless and all the old Ask Fedora content (now rebranded as Askbot.fedora.org) will vanish soon, including [Ahmad Samir's ridiculously useful answer](https://askbot.fedoraproject.org/en/question/37598/how-to-create-custom-keymaps-now-that-libudevkeymap-is-gone/) to my udev question from 2013.
+This one's a real mess, but I'm too lazy to type it out now. I'm trusting that this dangling appendage will <del>embarrass</del> shame me into completing it, since the new Ask Fedora is absolutely, 100% useless and all the old Ask Fedora content (now rebranded as Askbot.fedora.org) will vanish soon, including [Ahmad Samir's ridiculously useful answer](https://web.archive.org/web/20190517092849/https://askbot.fedoraproject.org/en/question/37598/how-to-create-custom-keymaps-now-that-libudevkeymap-is-gone/) to my udev question from 2013.
 
 tldr? Dig into the udev Readmes hiding on your system to learn all the udev utilities to run and monitor output while poking keys on your keyboard. Then you'll suss out the manufacturer specific serial numbers/device IDs you can use to run rules or straight-up remap the hardware, as I do. 
 
