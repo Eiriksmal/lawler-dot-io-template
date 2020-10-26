@@ -171,7 +171,7 @@ footer.paginator > span.hide {
     visibility: hidden;
 }
 
-p > code, span.sidenote > code, span.marginnote > code {
+code {
     background-color: #F9F2F4;
     border-radius: 4px;
     box-sizing: border-box;
