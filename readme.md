@@ -7,6 +7,7 @@ The _master_ branch was [renamed](https://stackoverflow.com/questions/53377423/r
 You need pip, the Python package manager:
 
 1. `pip install Markdown`
+2. `pip install typogrify`
 2. `pip install "pelican[markdown]"`
 3. `pip install yuicompressor`
 4. That's it! You can now run `make devserver` from the root directory and navigate to localhost:8000.
