@@ -1,5 +1,5 @@
 import re
-import cgi
+import html
 
 
 def convert_quotes(text):
@@ -109,7 +109,7 @@ def typographic_escape(text):
     # Copyright (c) 2004, 2005, 2007, 2013 Chad Miller
     # Copyright (c) 2003 John Gruber
     """
-    text = cgi.escape(text.replace('&#39;', "'").replace('&#34;', '"'))
+    text = html.escape(text.replace('&#39;', "'").replace('&#34;', '"'))
 
     text = re.sub(r"""\.\.\.""", '&hellip;', text)
     text = re.sub('--', '&mdash;', text)
