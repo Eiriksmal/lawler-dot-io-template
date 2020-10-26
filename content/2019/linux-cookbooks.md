@@ -1,5 +1,6 @@
 Title: Linux Cookbooks
 Date: 2019-12-24 17:51
+Modified: 2020-10-26 10:53
 Category: Linux
 Tags: reference, how-to
 Description: Random Linux learnings I've accrued over the years.
@@ -68,13 +69,34 @@ sudo modprobe -v vboxdrv
 ## Remapping caps lock to backspace, 2019 edition
 This one's a real mess, but I'm too lazy to type it out now. I'm trusting that this dangling appendage will <del>embarrass</del> shame me into completing it, since the new Ask Fedora is absolutely, 100% useless and all the old Ask Fedora content (now rebranded as Askbot.fedora.org) will vanish soon, including [Ahmad Samir's ridiculously useful answer](https://web.archive.org/web/20190517092849/https://askbot.fedoraproject.org/en/question/37598/how-to-create-custom-keymaps-now-that-libudevkeymap-is-gone/) to my udev question from 2013.
 
-tldr? Dig into the udev Readmes hiding on your system to learn all the udev utilities to run and monitor output while poking keys on your keyboard. Then you'll suss out the manufacturer specific serial numbers/device IDs you can use to run rules or straight-up remap the hardware, as I do. 
+tldr? Dig into the udev Readmes<label for="sn-readme" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-readme" class="margin-toggle"><span class="sidenote">/usr/lib/udev/hwdb.d/60-keyboard.hwdb</span> hiding on your system to learn all the udev utilities to run and monitor output while poking keys on your keyboard. Then you'll suss out the manufacturer specific serial numbers/device IDs you can use to run rules or straight-up remap the hardware, as I do. 
+
+Some of the the data for identifying keyboards is hidden in the `evtest` command's output. The generic USB keyboard rules are:
+
+`evdev:name:<input device name>:phys:<phys>:ev:<ev>:dmi:bvn*:bvr*:bd*:svn<vendor>:pn*`
+
+When you start `evtest` and choose your keyboard, you'll see this printed:
+```
+Input driver version is 1.0.1
+Input device ID: bus 0x11 vendor 0x1 product 0x1 version 0xab41
+Input device name: "AT Translated Set 2 keyboard"
+```
+
+Which you can translate to: `evdev:input:b0011v0001p0001eAB41`
+
+AT Keyboards<label for="sn-honest" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-honest" class="margin-toggle"><span class="sidenote">Honestly, I'm not sure what this type of input device is. PS/2? The laptop keyboard is an AT device.</span> can be identified using the data from `modalias`:
+```
+[root@kohlenstoff ~]# cat /sys/class/dmi/id/modalias
+dmi:bvnDellInc.:bvr1.7.0:bd05/11/2020:br1.7:svnDellInc.:pnXPS157590:pvr:rvnDellInc.:rn0VYV0G:rvrA00:cvnDellInc.:ct10:cvr:
+```
 
 Here is my cookbook, for the next computer I purchase. Plop this in `/lib/udev/hwdb.d/90-custom-keyboard.hwdb`, in Linux kernel 5.X+ and this will cause the kernel to translate all slaps of the caps lock key, useless invention that it is, as a backspace key to every single application on your system: In X and Wayland and Virtual Terminals alike.
 
 ```bash
 # Dell XPS 15
-evdev:input:b0011v0001p0001eAB41*
+# Exact match: evdev:input:b0011v0001p0001eAB41*
+# All Dell keyboards:
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pn*
  KEYBOARD_KEY_3a=backspace
  KEYBOARD_KEY_70039=backspace
 
@@ -94,12 +116,20 @@ evdev:input:b0003v045Ep00DB*
  KEYBOARD_KEY_70039=backspace
  KEYBOARD_KEY_c022d=up
  KEYBOARD_KEY_c022e=down
-
-# das keyboard
-evdev:input:b0003v24F0*
- KEYBOARD_KEY_3a=backspace
- KEYBOARD_KEY_70039=backspace
 ```
+
+### Don't Panic
+When you upgrade your system, these rules will appear to stop working. Before you grind your molars to dust and embark on an hour-long update to this blog post, just remember that systemd updates its rules on a schedule that is vague.
+
+Post-update to systemd / your OS, follow the instructions given in the 60-keyboard rules file to remind Linux that `Caps Lock` is dead to you:
+
+```
+[root@kohlenstoff ~]# systemd-hwdb update
+[root@kohlenstoff ~]# udevadm trigger --verbose --sysname-match="event*"
+[long list of events that changed printed here]
+/sys/devices/platform/i8042/serio0/input/input3/event3
+^-- welcome back, double backspace!
+``` 
 
 Merry Christmas.
 </section>
