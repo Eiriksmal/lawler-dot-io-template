@@ -16,11 +16,11 @@ I help rapidly-growing companies conquer their growing pains and continue hockey
 
 (You've caught this website in a beta state: In the near future, this section will link you to my portfolio and resume, which explain who I am *in action*, rather than in mere words. For now, you might be interested in this amusing [list of stuff I've been paid to do.](/stuff-ive-done/))
 
-My wife and I have been married for 9 years, in love for 14 years (and counting!), best friends for 15 years, and known each other for an astonishing 20 years now. We've expanded our family with a boisterous bunch of boys: Ages 7.5, 5, and 2.
+My wife and I have been married for 10 years, in love for 15 years (and counting!), best friends for 16 years, and known each other for an astonishing 21 years now. We've expanded our family with a boisterous bunch of boys, ages 8, 5, and 2, and a much quieter girl, born November 2020.
 
 "Reformed Evangelical Christian" is the most succinct description of my relationship with Jesus, the foundation of my worldview and source of my strong values.
 
-Outside the office, I'm a serious car enthusiast and gearhead (protip: reduce rotating drivetrain mass to increase smiles per mile) and amateur photographer.
+Outside the office, I'm a serious car enthusiast and gearhead (protip: reduce rotating drivetrain mass to increase smiles per mile) and amateur photographer. During 'Rona season, I got back into an early love--mountain biking! You can find me on our local singletrack each weekend, when I'm not fiddling with the family's bike fleet. Nothing beats flying across rock gardens at 20MPH...
 </section>
 <section markdown="1">
 ## About the website

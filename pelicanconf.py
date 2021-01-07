@@ -103,7 +103,6 @@ MENUITEMS = [
 
 SOCIAL = (
   ('GitHub', 'https://github.com/Eiriksmal'),
-  ('Twitter', 'https://www.twitter.com/Eiriksmal'),
   ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
   ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),
 )
