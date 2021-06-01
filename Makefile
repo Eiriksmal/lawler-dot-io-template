@@ -8,7 +8,7 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-SSH_HOST=165.227.241.63
+SSH_HOST=[your server ip]
 SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www/html/

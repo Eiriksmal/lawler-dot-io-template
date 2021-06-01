@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Eric Lawler'
-SITENAME = u'Eric Lawler'
-SITETITLE = u'Lawler.io | Eric Lawler - Servant-leader CTO'
+AUTHOR = u'Your Name'
+SITENAME = u'Your Name'
+SITETITLE = u'your-domain.com | Your Name'
 SITEURL = ''
 
 PATH = 'content'
@@ -102,10 +102,10 @@ MENUITEMS = [
 ]
 
 SOCIAL = (
-  ('GitHub', 'https://github.com/Eiriksmal'),
-  ('LinkedIn', 'https://www.linkedin.com/in/eric-lawler/'),
-  ('Flickr', 'https://www.flickr.com/photos/eric-lawler/albums'),
+  ('GitHub', 'https://github.com/your-handle'),
+  ('LinkedIn', 'https://www.linkedin.com/in/you/'),
+  ('Flickr', 'https://www.flickr.com/photos/your/albums'),
 )
 
-TWITTER_HANDLE = "@Eiriksmal"
-SITEMETA = "Eric Lawler, San-Diego based software engineering leader: Scrivings, musings, and more"
+TWITTER_HANDLE = "@YourHandle"
+SITEMETA = "Your description here"
