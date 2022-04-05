@@ -15,6 +15,12 @@ You need pip, the Python package manager, and a copy of Python 2.7 or 3.x:
 
 (Parallel instructions in https://lawler.io/about/)
 
+### Useful commands
+`./generate_entry.py "Post Title Here"` to generate a new post, with metadata placeholders inserted
+- `make rsync_upload` to publish the site
+- All configuration is in `/pelicanconf.py`
+- `/publishconf.py` contains overrides of `pelicanconf` for the `make publish` command (executed by `rsync_upload`). Intended for prod values, keys, etc.
+
 ## About the website
 
 When computer-programming/engineering types have a website, it's traditional to <del>brag about</del> explain the technology used to create and serve the site. I have no idea who actually reads these summaries, but for posterity's sake&hellip;
