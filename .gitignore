@@ -1,8 +1,8 @@
 /.project
 .idea/
-output/
 *.py[cod]
 *.lock
 *.swp
 *.out
 .venv
+__pycache__
