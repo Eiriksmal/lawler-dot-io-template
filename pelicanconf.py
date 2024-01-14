@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Your Name'
-SITENAME = u'Your Name'
-SITETITLE = u'your-domain.com | Your Name'
+AUTHOR = u'Giovanni Magoga'
+SITENAME = u'Giovanni Magoga'
+SITETITLE = u'ma9o.com | Giovanni Magoga'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'Europe/Rome'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 DEFAULT_LANG = u'en'
@@ -52,7 +52,7 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['eric_extensions', 'neighbors', 'sitemap', 'yuicompressor']
 
 THEME = 'theme'
-LOGO = 'images/logo.png'
+LOGO = 'images/logo.jpg'
 
 DEFAULT_CATEGORY = 'Dross'
 
@@ -102,10 +102,9 @@ MENUITEMS = [
 ]
 
 SOCIAL = (
-  ('GitHub', 'https://github.com/your-handle'),
-  ('LinkedIn', 'https://www.linkedin.com/in/you/'),
-  ('Flickr', 'https://www.flickr.com/photos/your/albums'),
+  ('GitHub', 'https://github.com/ma9o'),
+  ('LinkedIn', 'https://www.linkedin.com/in/ma9o/'),
 )
 
-TWITTER_HANDLE = "@YourHandle"
+TWITTER_HANDLE = "@gma9o"
 SITEMETA = "Your description here"

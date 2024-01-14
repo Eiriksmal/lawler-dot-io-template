@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Your Name{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}{% endblock %}
-{% block og_title %}Home | Your Name{% endblock %}
+{% block title %}Giovanni Magoga{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}{% endblock %}
+{% block og_title %}Home | Giovanni Magoga{% endblock %}
 
 {% block content %}
     {% for article in articles_page.object_list %}
