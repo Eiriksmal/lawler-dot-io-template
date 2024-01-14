@@ -1,7 +1,7 @@
 Title: Hello, World
-Date: 2019-03-20 01:11
-Category: None
-Tags: none
+Date: 2024-01-14 13:37
+Category: ideas
+Tags: data cooperatives
 Status: Published
 Description: Your site is published!
 
