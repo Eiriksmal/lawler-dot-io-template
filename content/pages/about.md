@@ -1,5 +1,5 @@
 Title: About
-Status: Published
+Status: hidden
 Date: 2024-01-01 13:00
 Save_as: about.html
 
