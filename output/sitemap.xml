@@ -5,13 +5,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2024-01-14T17:01:32-00:00</lastmod>
+<lastmod>2024-01-14T17:15:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/scrivings/hello-world/</loc>
+<loc>/scrivings/the-duty-to-data-portability/</loc>
 <lastmod>2024-01-14T13:37:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
