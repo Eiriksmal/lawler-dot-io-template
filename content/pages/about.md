@@ -8,7 +8,7 @@ Save_as: about.html
 
 You can email me here: [ma9o@protonmail.com](mailto:ma9o@protonmail.com){:target="_blank"}
 
-Thanks [@Eiriksmal](https://github.com/Eiriksmal){:target="_blank"} for the blog theme!
+Thanks [@Eiriksmal](https://github.com/Eiriksmal){:target="_blank"} for the blog template!
 
 The profile picture is from [Breezing Up (A Fair Wind)](https://en.wikipedia.org/wiki/Breezing_Up_(A_Fair_Wind)) by Winslow Homer.
 </section>
