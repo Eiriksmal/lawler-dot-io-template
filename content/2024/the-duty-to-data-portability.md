@@ -9,15 +9,7 @@ Description: Your site is published!
 
 I have just finished reading [The Revolt of the Public](https://press.stripe.com/the-revolt-of-the-public) by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I live in Europe, and with Putin playing Risiko,<label for="sn-aea" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-aea" class="margin-toggle">
-<span class="sidenote">Or rather Axis & Allies since everyone seems to be making up new rules as they play.</span> Die Grünen cannibalizing Germany’s energy sector and the looming possibility of a Trump re-election, these premonitions have started materializing into very real consequences.
-
-[Right in the spirit of the events in the book, Just like Wael Ghonim], I feel like proposing my armchair political scientist view on the subject, with a minimal claim of legitimacy stemming from having been involved in privacy and identity throughout my career in software development. 
-
-<span class="marginnote">
-Computers used in Интенсификация 90, Gorbachev's plan to fix the communist economy. Frame from [Traumazone](https://www.youtube.com/playlist?list=PLSjQL8MYniTTLA3wnZ25U-s6RgR4uJNvL) by Adam Curtis.
-</span>
-
-![Intensification 90](images/intensification.png)
+<span class="sidenote">Or rather Axis & Allies since everyone seems to be making up new rules as they play.</span> Die Grünen cannibalizing Germany’s energy sector and the looming possibility of a Trump re-election, the book's premonitions have started materializing into very real consequences.
 
 Gurri argues that the public's revolt<label for="sn-gurri" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-gurri" class="margin-toggle">
@@ -25,12 +17,43 @@ Gurri argues that the public's revolt<label for="sn-gurri" class="margin-toggle 
 
 The results of such destabilization have been chaos so far, but as I come down the unreasonably optimistic wave of the tech sector,<label for="sn-salaries" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-salaries" class="margin-toggle">
-<span class="sidenote">Maybe it's just the salaries?</span> I'm compelled to embrace the optimistic vision at the end of the book - one that stands against such political nihilism: I will argue that in the past coupld of years a number of crucial technological innovations have made this vision possible, and we’re just a small cultural step away from a [...].
+<span class="sidenote">Maybe it's just the compensation package?</span> I'm compelled to embrace the vision at the end of the book against such political nihilism: I will argue that in the past coupld of years a number of crucial technological innovations have made this vision possible, and we’re just a small cultural step away from a [...].
+
+| ![Intensification 90](images/intensification.png) |
+|:--:| 
+| Computers in charge of running Интенсификация 90, Gorbachev's plan to fix the communist economy. Source: [Traumazone](https://www.youtube.com/playlist?list=PLSjQL8MYniTTLA3wnZ25U-s6RgR4uJNvL) by Adam Curtis. |
 
 For the theoretical foundations of my thesis, I’ll try to reconcile Fukuyama, Blockchain, Data rights, and Erlang’s actor model (?) oversimplyfing the world like a fellow Grug Brained Developer does.<label for="sn-grug" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-grug" class="margin-toggle">
 <span class="sidenote">
-[Definitely not Erlang then](https://grugbrain.dev/#grug-on-concurrency), maybe principal agent’s theory?
+[Definitely not Erlang then](https://grugbrain.dev/#grug-on-concurrency), I think I meant the Principal-agent Model.
+
+## Hayek and GDPR<label for="sn-edge-1" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-edge-1" class="margin-toggle">
+<span class="sidenote">
+The Principal &rarr; Agent edge.
+</span>
+
+
+## Code integrity and differential privacy<label for="sn-edge-2" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-edge-2" class="margin-toggle">
+<span class="sidenote">
+The Agent &#10226; edge.
+</span>
+
+
+## Overlooking Like a State<label for="sn-edge-3" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-edge-3" class="margin-toggle">
+<span class="sidenote">
+The Agent &rarr; Principal edge.
+</span>
+
+## How we percieve legitimacy<label for="sn-edge-4" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-edge-4" class="margin-toggle">
+<span class="sidenote">
+The Principal &#10226; edge.
+</span>
+
 </span>  
 </section>
 
