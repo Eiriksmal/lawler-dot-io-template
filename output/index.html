@@ -47,9 +47,9 @@
                 </header>
 
                 <section>
-<p>I have just finished reading <a href="https://press.stripe.com/the-revolt-of-the-public">The Revolt of the Public</a> by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I&rsquo;m a software enginner in Europe, and with Putin playing Risiko,<label for="sn-aea" class="margin-toggle sidenote-number"></label>
+<p>I have just finished reading <a href="https://press.stripe.com/the-revolt-of-the-public">The Revolt of the Public</a> by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I&rsquo;m a software engineer based in Europe, and [with Die Grünen cannibalizing Germany’s energy sector &hellip; expand], Putin knocking on the door and the looming possibility of Trump holding it open for him, [something] <label for="sn-aea" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-aea" class="margin-toggle">
-<span class="sidenote">Or rather Axis &amp; Allies since everyone seems to be making up new rules as they play.</span> Die Grünen cannibalizing Germany’s energy sector and the looming possibility of a Trump re-election, I&rsquo;ve started thinking that maybe tech can help.</p>
+<span class="sidenote">Too much complexity, Grug reaching for club</span></p>
 <p>Gurri argues that the public&rsquo;s revolt<label for="sn-gurri" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-gurri" class="margin-toggle">
 <span class="sidenote">Arab Spring, Occupy Wall Strett, Tea Party movement, Indignados, Brexit, etc.</span> is not just a rebellion against specific policies or leaders, but a fundamental challenge to the top-down, hierarchical structures of the 20th century. This rebellion is fueled by the information explosion, which has democratized knowledge and destabilized traditional power structures.</p>
@@ -74,6 +74,7 @@
 [Definitely not Erlang then](https://grugbrain.dev/#grug-on-concurrency), I think I meant the Principal-agent Model.
 </span> -->
 <p>In The Origins of Political Order, Fukuyama identifies 3 pillars of Modern government: state capacity, accountability and Rule of Law. Up close, these pillars are an intertwined network of actors, as represented by <del>Erlang&rsquo;s concurrency model</del> the principal-agent model, where the public (Principal) hire government offcials (Agent) to enact policy to their benefit. When token prediction models will exterminate humanity and we&rsquo;ll be left with just computers, this model will be no longer needed, and will be more akin to a blockchain, where each actor has perfect information of the world and can be both the agent and the principal. </p>
+<p>Add some words on Friedman, state monopoly over violence, and rule of law at the basis of everything.</p>
 <p>If we try to forcibly stretch Fukuyama’s framework over the principal-agent model, we obtain something like this:   </p>
 <p><img alt="Principal-Agent Fukuyama" src="images/principal-agent.png"></p>
 <p>With the outgoing edges representing the exchange of information for policy between the actors, and the reflective edges representing accountability&hellip;
@@ -100,8 +101,8 @@ The Agent &#10226; edge.
 <p>(borrowing a concept from differential privacy that )</p>
 <p><img alt="Differential privacy utility curve" src="images/differential-privacy-utility.png"></p>
 <p>the green dot being a zero-knowledge proof if you&rsquo;re from the web3 crowd</p>
-<p>but how do we ensure that the data is indeed used for policy and is aggregate? confidentiality &hellip;</p>
-<p>Let&rsquo;s consider our general relation with ads. Some might go to the extent of Norway and even ban targeted ads (or also https://noyb.eu/en). Your milage may vary but on average very few of the ads we see have anything to do with us.<label for="sn-maggots" class="margin-toggle sidenote-number"></label>
+<p>but how do we ensure that the data is indeed used for policy (not surveillance) and is aggregate? confidentiality &hellip; (commercial cloud oct &lsquo;22)</p>
+<p>(How does this data then become useful?) Let&rsquo;s consider our general relation with ads. Some might go to the extent of Norway and even ban targeted ads (or also https://noyb.eu/en). Your milage may vary but on average very few of the ads we see have anything to do with us.<label for="sn-maggots" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-maggots" class="margin-toggle">
 <span class="sidenote">
 many reasons why: &hellip; 
@@ -111,15 +112,41 @@ many reasons why: &hellip;
 <span class="sidenote">
 The Agent &rarr; Principal edge.
 </span></p>
+<p>In Seeing like a State [Discuss the importance of local decisions and how they often contain nuanced data that central authorities miss. Emphasize that governments have limited capacity for data capture and analysis, reinforcing the value of public participation in data sharing&hellip;]</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Munger hall" src="images/munger-hall.jpg"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3D render of the Munger Hall plans</td>
+</tr>
+</tbody>
+</table>
+<p>[bring examples specificifying how takeout data can give a better picture than trad. analyses]</p>
+<p>What&rsquo;s important is that not only the policy implemented is scientifically sound, but also that it aligns with the morality of the principal.</p>
 <!-- [Democracy basically means government by the people, of the people, for the people...](https://www.youtube.com/watch?v=QFgcqB8-AxE) -->
-<h2>How we percieve legitimacy<label for="sn-edge-4" class="margin-toggle sidenote-number"></label></h2>
+<h2>Legitimate government<label for="sn-edge-4" class="margin-toggle sidenote-number"></label></h2>
 <p><input type="checkbox" id="sn-edge-4" class="margin-toggle">
 <span class="sidenote">
 The Principal &#10226; edge.
 </span></p>
+<p>[important: draw a difference between people that can do some optimal interpolation -&gt; bayesians, vs people that have very biased interpolation -&gt; moralists. morality bad. spectrum of moralisms -&gt; how quickly you can update your beliefs in a bayesian way]</p>
+<p>According to Haidt, the public is fundamentally moral: Disconnect in perception of legitimacy → the principal might not have as much data about the global state as the agent, so analyzes choice based on internal value and personality model</p>
+<p>Personality and morality -&gt; somewhat stable internal state, hard to change. is also praty genetic, carrying over information from the previous generation.</p>
+<p>Like Haidt, i believe pluralism of moralities is generally positive. yet when i first read his book some years ago i was still finding myself thinking &ldquo;oh that&rsquo;s how i&rsquo;m gonna convince these dumb (prograssives/coservatives) that my (conservative/prograssive) view is the best!&rdquo;. I&rsquo;ll provide a more abstract analogy to hopefully avoid this for you.</p>
+<p>Imagine politics as an optimization problem using gradient descent. the difference with gradient descent is that local knowledge is not unique: you can image of two forces. we can use one person on the left and one on the right as simplification (this side is steeper! no, this side is steeper!).
+The set of points is the same (the empirical truth) but both characters have different interpretations for these points using their morality. (give an example)</p>
+<p>with democracy we now have millions of these agents and millions of different moralities.
+For a government to be perceived as legitimate we have to pick the average of all interpretations of the points. the government could also get lucky and reach the optimum picking one of the curves at random, but that&rsquo;s not the point of democracy.</p>
+<p>(Nietzsche, beyond good and evil)</p>
+<p>(???) (LLMs, perusasiveness, theory of mind) -&gt; explain to me policy in a way that reflects how my values have been taken into account, as well as the other people. [paper on personality prediction]</p>
 <h1>Wrapping up</h1>
-<p>the reason why I&rsquo;ve mentioned the A word (👻 advertising 👻) before is that advertising is central to this. </p>
-<p>Thanks for reading so far! Send me an email?</p>
+<p>[little summary]</p>
+<p>the reason why I&rsquo;ve mentioned the A word (👻 advertising 👻) before is that advertising is central to this. (blended value)</p>
+<p>Thanks for reading so far! Send me an email if you wanna help out (get into the eva shinji)</p>
 </section>
 
 
