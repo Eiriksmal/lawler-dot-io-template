@@ -47,15 +47,17 @@
                 </header>
 
                 <section>
-<p>I have just finished reading <a href="https://press.stripe.com/the-revolt-of-the-public">The Revolt of the Public</a> by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I&rsquo;m a software engineer based in Europe, and [with Die Grünen cannibalizing Germany’s energy sector &hellip; expand], Putin knocking on the door and the looming possibility of Trump holding it open for him, [something] <label for="sn-aea" class="margin-toggle sidenote-number"></label>
+<p>I have just finished reading <a href="https://press.stripe.com/the-revolt-of-the-public">The Revolt of the Public</a> by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I&rsquo;m a software engineer based in Europe, and with the self-immolation of Germany&rsquo;s energy sector, Putin knocking on the door and the looming possibility of a Trump holding it open for him, <span style="text-decoration: red wavy underline;">I&rsquo;ve begun to search my expertise for how to disentangle.</span> </p>
+<p><label for="sn-aea" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-aea" class="margin-toggle">
 <span class="sidenote">Too much complexity, Grug reaching for club</span></p>
 <p>Gurri argues that the public&rsquo;s revolt<label for="sn-gurri" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-gurri" class="margin-toggle">
 <span class="sidenote">Arab Spring, Occupy Wall Strett, Tea Party movement, Indignados, Brexit, etc.</span> is not just a rebellion against specific policies or leaders, but a fundamental challenge to the top-down, hierarchical structures of the 20th century. This rebellion is fueled by the information explosion, which has democratized knowledge and destabilized traditional power structures.</p>
-<p>The results of such destabilization have been chaos so far, but as I come down the unreasonably optimistic wave of the tech sector,<label for="sn-salaries" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-salaries" class="margin-toggle">
-<span class="sidenote">Maybe it&rsquo;s just the severance package?</span> I&rsquo;m compelled to embrace the vision at the end of the book against such political nihilism: I will argue that in the past coupld of years a number of crucial technological innovations have made this vision possible, and we just need a small cultural step to adopt a framework of this type.</p>
+<p>While this destabilization has led to chaos in all its major instances, I&rsquo;ve anecdotally been experiencing the growing sentiment against nichilism in my day-to-day, prompting for an optimistic vision much like the one at the end of the book.
+<span style="text-decoration: red wavy underline;">
+I will argue that in the past couple of years a number of crucial innovations have made it possible to nudge the system towards this vision [+ small cultural step needed]
+</span></p>
 <table>
 <thead>
 <tr>
@@ -68,27 +70,38 @@
 </tr>
 </tbody>
 </table>
-<!-- For the theoretical foundations of my thesis, I’ll try to reconcile Fukuyama, Blockchain, Data rights, and Erlang’s actor model (?) oversimplyfing the world like a fellow Grug Brained Developer does.<label for="sn-grug" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-grug" class="margin-toggle">
+<!-- In The Origins of Political Order, -->
+<p>The fundamental structure underlying govenrment and all of its problems is the  principal-agent model, where the public (Principal) hire government offcials (Agent) to [enact policy] to the benefit of the public. The necessity of such a model arises in scenarios of imperfect information, (unlike, for example, in a cryptocurrency).<label for="sn-blockchain" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-blockchain" class="margin-toggle">
 <span class="sidenote">
-[Definitely not Erlang then](https://grugbrain.dev/#grug-on-concurrency), I think I meant the Principal-agent Model.
-</span> -->
-<p>In The Origins of Political Order, Fukuyama identifies 3 pillars of Modern government: state capacity, accountability and Rule of Law. Up close, these pillars are an intertwined network of actors, as represented by <del>Erlang&rsquo;s concurrency model</del> the principal-agent model, where the public (Principal) hire government offcials (Agent) to enact policy to their benefit. When token prediction models will exterminate humanity and we&rsquo;ll be left with just computers, this model will be no longer needed, and will be more akin to a blockchain, where each actor has perfect information of the world and can be both the agent and the principal. </p>
-<p>Add some words on Friedman, state monopoly over violence, and rule of law at the basis of everything.</p>
-<p>If we try to forcibly stretch Fukuyama’s framework over the principal-agent model, we obtain something like this:   </p>
+When token prediction models will exterminate humanity and we&rsquo;ll be left with just computers, this model will be no longer needed, and will be more akin to a blockchain, where each actor has perfect information of the world and can be both the agent and the principal. 
+</span></p>
+<p>In order for this relationship to be fruitful at scale, Fukuyama identifies 3 pillars of <em>modern government</em>: State Capacity, Accountability and Rule of Law. [explain them]</p>
+<p>From a purely informatics perspective we can address some aspects of state capacity and accountability, assuming a working underlying rule of law (which westerns states have too much of -&gt; US) and state monopoly over violence (which even worse states have), the most important prerogative according to Friedman. </p>
+<p>If we try to overlay these attributes on our <del>Erlang&rsquo;s concurrency</del> principal-agent model, we obtain a structure like the following: the outgoing edges representing the state&rsquo;s capacity to capture data and enact effective policies with it, the self-edges representing accountability </p>
 <p><img alt="Principal-Agent Fukuyama" src="images/principal-agent.png"></p>
-<p>With the outgoing edges representing the exchange of information for policy between the actors, and the reflective edges representing accountability&hellip;
-Here&rsquo;s how each can be improved with technology:</p>
-<h2>Hayek and GDPR<label for="sn-edge-1" class="margin-toggle sidenote-number"></label></h2>
+<p>I&rsquo;ll now go into each edge.</p>
+<h2>The Great Data Power Redistribution (GDPR)<label for="sn-edge-1" class="margin-toggle sidenote-number"></label></h2>
 <p><input type="checkbox" id="sn-edge-1" class="margin-toggle">
 <span class="sidenote">
-The Principal &rarr; Agent edge.
-</span></p>
-<p>Walking backwards from Yochai Benkler&rsquo;s &ldquo;The Wealth of Networks&rdquo;, into Hayek&rsquo;s &ldquo;The Use of Knowledge in Society&rdquo;, and further into &ldquo;the Wealth of Nations&rdquo;, we see an evolution of the idea of decentralized infromation sourcing from economic benefit into more complex social media.</p>
+The Principal &rarr; Agent edge.</p>
+<p></span></p>
+<p>In line with the tradition of thought - from Smith through Hayek into Benkler<label for="sn-tradition" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-tradition" class="margin-toggle">
+<span class="sidenote">
+The Wealth of Nations, The Use of Knowledge in Society, The Wealth of Networks.
+</span> - on the decentralized nature of information and economic systems, I want to suggest my own acronym for GDPR, the Great Data Power Redistribution.</p>
+<p>As revolutionary as cookie banners are<label for="sn-cookies" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-cookies" class="margin-toggle">
+<span class="sidenote">
+It&rsquo;s basically a democratization of cookie clicker
+</span>, there&rsquo;s another very important part of the legislation which has gotten little love over the years: the right to data portability.</p>
+<blockquote>
+<p>The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided<sup id="fnref:gdpr"><a class="footnote-ref" href="#fn:gdpr">1</a></sup></p>
+</blockquote>
+<p>Of course the article doesn&rsquo;t provide any specific guidance on the implementation so, given the current absence of incentive structures, none of this exists with interoperable standards and any resemblance of a user experience. Yet even in this current state of minimum usability, you can now access the most comprehensive digital model of your identity, from your private Google search history to your Instagram messages.</p>
 <p>(some examples about google and facebook data. focus on raw data and possiblity of info for next section)</p>
-<p>Privacy regulation (make joke about cookie banners), also something called the right to data portability(note about which legislations uphold it) (canont find this link where it had all countries and if they had the right), establishing that a user of digital services should be able to get out all their information in a &ldquo;reasonably straightforward&rdquo; way.</p>
-<p>(into a note: Reasonably straightforward, as interpreted by big tech, currently means non standardized,  finding some specific url hidden somewhere in your account netherworld&rsquo;s setting, selecting which categories you need, the archive format, the data format, the file split size, the file destination, and then waiting up to 24 hours for a link that takes you back to the account settings)</p>
-<p>Yet in these account takeouts you can get so much information that is invisible when using OpenID, such as you entire google search history, your whole location history, emails, and your private messages </p>
+<p>How do we make sure all of this is used to a good purpose, and most importantnly how is it better than what the government currently does?</p>
 <h2>Code integrity and differential privacy<label for="sn-edge-2" class="margin-toggle sidenote-number"></label></h2>
 <p><input type="checkbox" id="sn-edge-2" class="margin-toggle">
 <span class="sidenote">
@@ -98,7 +111,7 @@ The Agent &#10226; edge.
 <p>There is little cross-contamination between the datasets, Google knowing your searches, Facebook knowing your friends and amazon knowing what you purchase. The traditional third party processors hold some of that data (Nielsen, Liveramp etc), but no one has the full picture except you.</p>
 <p>Personal privacy is fundamental, how free would you be if you knew that your every </p>
 <p>Yet i will explain how all this data would be invaluable for a policymaker. </p>
-<p>(borrowing a concept from differential privacy that )</p>
+<p>(borrowing a concept from differential privacy that was actually created for government)</p>
 <p><img alt="Differential privacy utility curve" src="images/differential-privacy-utility.png"></p>
 <p>the green dot being a zero-knowledge proof if you&rsquo;re from the web3 crowd</p>
 <p>but how do we ensure that the data is indeed used for policy (not surveillance) and is aggregate? confidentiality &hellip; (commercial cloud oct &lsquo;22)</p>
@@ -107,7 +120,7 @@ The Agent &#10226; edge.
 <span class="sidenote">
 many reasons why: &hellip; 
 </span> Why should they have my data if the targeting is so bad? The same applies with government. why would i give all this data? see next paragraph</p>
-<h2>Overlooking Like a State<label for="sn-edge-3" class="margin-toggle sidenote-number"></label></h2>
+<h2>Gross Generalization Like a State<label for="sn-edge-3" class="margin-toggle sidenote-number"></label></h2>
 <p><input type="checkbox" id="sn-edge-3" class="margin-toggle">
 <span class="sidenote">
 The Agent &rarr; Principal edge.
@@ -128,26 +141,36 @@ The Agent &rarr; Principal edge.
 <p>[bring examples specificifying how takeout data can give a better picture than trad. analyses]</p>
 <p>What&rsquo;s important is that not only the policy implemented is scientifically sound, but also that it aligns with the morality of the principal.</p>
 <!-- [Democracy basically means government by the people, of the people, for the people...](https://www.youtube.com/watch?v=QFgcqB8-AxE) -->
-<h2>Legitimate government<label for="sn-edge-4" class="margin-toggle sidenote-number"></label></h2>
+<h2>Legitimacy and morality<label for="sn-edge-4" class="margin-toggle sidenote-number"></label></h2>
 <p><input type="checkbox" id="sn-edge-4" class="margin-toggle">
 <span class="sidenote">
 The Principal &#10226; edge.
 </span></p>
+<p>[review this part]</p>
 <p>[important: draw a difference between people that can do some optimal interpolation -&gt; bayesians, vs people that have very biased interpolation -&gt; moralists. morality bad. spectrum of moralisms -&gt; how quickly you can update your beliefs in a bayesian way]</p>
-<p>According to Haidt, the public is fundamentally moral: Disconnect in perception of legitimacy → the principal might not have as much data about the global state as the agent, so analyzes choice based on internal value and personality model</p>
-<p>Personality and morality -&gt; somewhat stable internal state, hard to change. is also praty genetic, carrying over information from the previous generation.</p>
-<p>Like Haidt, i believe pluralism of moralities is generally positive. yet when i first read his book some years ago i was still finding myself thinking &ldquo;oh that&rsquo;s how i&rsquo;m gonna convince these dumb (prograssives/coservatives) that my (conservative/prograssive) view is the best!&rdquo;. I&rsquo;ll provide a more abstract analogy to hopefully avoid this for you.</p>
+<p>According to Haidt, the public is fundamentally moral: group selection. Disconnect in perception of legitimacy → the principal might not have as much data about the global state as the agent, so analyzes choice based on internal value and personality model</p>
+<p>change this into group selection -&gt; [Personality and morality -&gt; somewhat stable internal state, hard to change. is also praty genetic, carrying over information from the previous generation.]</p>
+<!-- Like Haidt, i believe pluralism of moralities is generally positive. yet when i first read his book some years ago i was still finding myself thinking "oh that's how i'm gonna convince these dumb (prograssives/coservatives) that my (conservative/prograssive) view is the best!". I'll provide a more abstract analogy to hopefully avoid this for you. -->
 <p>Imagine politics as an optimization problem using gradient descent. the difference with gradient descent is that local knowledge is not unique: you can image of two forces. we can use one person on the left and one on the right as simplification (this side is steeper! no, this side is steeper!).
 The set of points is the same (the empirical truth) but both characters have different interpretations for these points using their morality. (give an example)</p>
-<p>with democracy we now have millions of these agents and millions of different moralities.
+<p>with democracy we now have millions of these agents and millions of different moralities -&gt; meaning groups, teams.
 For a government to be perceived as legitimate we have to pick the average of all interpretations of the points. the government could also get lucky and reach the optimum picking one of the curves at random, but that&rsquo;s not the point of democracy.</p>
 <p>(Nietzsche, beyond good and evil)</p>
 <p>(???) (LLMs, perusasiveness, theory of mind) -&gt; explain to me policy in a way that reflects how my values have been taken into account, as well as the other people. [paper on personality prediction]</p>
-<h1>Wrapping up</h1>
+<h1>TLDR</h1>
+<p>Thanks for reading so far!</p>
 <p>[little summary]</p>
 <p>the reason why I&rsquo;ve mentioned the A word (👻 advertising 👻) before is that advertising is central to this. (blended value)</p>
-<p>Thanks for reading so far! Send me an email if you wanna help out (get into the eva shinji)</p>
+<p>Send me an email if you wanna help out (get into the eva shinji)</p>
 </section>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:gdpr">
+<p>https://gdpr-info.eu/art-20-gdpr/&#160;<a class="footnote-backref" href="#fnref:gdpr" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
                 <footer class="de-emphasize">
