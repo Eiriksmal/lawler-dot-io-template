@@ -7,7 +7,7 @@ Description: Your site is published!
 
 <section markdown="1">
 
-I have just finished reading [The Revolt of the Public](https://press.stripe.com/the-revolt-of-the-public) by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I'm a software engineer based in Europe, and with the self-immolation of Germany's energy sector, Putin knocking on the door and the looming possibility of a Trump holding it open for him, <span style="text-decoration: red wavy underline;">I've begun to search my expertise for how to disentangle.</span> 
+I have just finished reading [The Revolt of the Public](https://press.stripe.com/the-revolt-of-the-public) by Martin Gurri which provides a great analysis of the current sociopolitical climate in the West. I'm a software engineer based in France, and with the self-immolation of Germany's energy sector, Putin knocking on the door and the looming possibility of a Trump holding it open for him, I've started to feel responsible given my informatics background to help europe *get its act together*.
 
 <label for="sn-aea" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-aea" class="margin-toggle">
@@ -34,42 +34,46 @@ The fundamental structure underlying govenrment and all of its problems is the  
 When token prediction models will exterminate humanity and we'll be left with just computers, this model will be no longer needed, and will be more akin to a blockchain, where each actor has perfect information of the world and can be both the agent and the principal. 
 </span>
 
-In order for this relationship to be fruitful at scale, Fukuyama identifies 3 pillars of *modern government*: State Capacity, Accountability and Rule of Law. [explain them]
+<!-- In order for this relationship to be fruitful at scale, Fukuyama identifies 3 pillars of *modern government*: State Capacity, Accountability and Rule of Law. [explain them]
 
-From a purely informatics perspective we can address some aspects of state capacity and accountability, assuming a working underlying rule of law (which westerns states have too much of -> US) and state monopoly over violence (which even worse states have), the most important prerogative according to Friedman. 
+From a purely informatics perspective (already ambitious plan of reforming the information part) we can address some aspects of state capacity and accountability, assuming a working underlying rule of law (which westerns states have too much of -> US) and state monopoly over violence (which even worse states have), the most important prerogative according to Friedman. 
 
-If we try to overlay these attributes on our <del>Erlang's concurrency</del> principal-agent model, we obtain a structure like the following: the outgoing edges representing the state's capacity to capture data and enact effective policies with it, the self-edges representing accountability 
+If we try to overlay these attributes on our <del>Erlang's concurrency</del> principal-agent model, we obtain a structure like the following: the outgoing edges representing the state's capacity to capture data and enact effective policies with it, the self-edges representing accountability, 
 
-![Principal-Agent Fukuyama](images/principal-agent.png)
+![Principal-Agent](images/principal-agent.png)
 
-I'll now go into each edge.
+I'll now go into each edge. -->
 
-## The Great Data Power Redistribution (GDPR)<label for="sn-edge-1" class="margin-toggle sidenote-number"></label>
+I'll try to avoid modernist takes and grandeurs. 
+
+## The Great Data Powers Redistribution (GDPR)<label for="sn-edge-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-edge-1" class="margin-toggle">
 <span class="sidenote">
 The Principal &rarr; Agent edge.
 
 </span>
 
-In line with the tradition of thought - from Smith through Hayek into Benkler<label for="sn-tradition" class="margin-toggle sidenote-number"></label>
+<!-- Borrowing from the tradition of thought - from Smith through Hayek into Benkler<label for="sn-tradition" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-tradition" class="margin-toggle">
 <span class="sidenote">
 The Wealth of Nations, The Use of Knowledge in Society, The Wealth of Networks.
-</span> - on the decentralized nature of information and economic systems, I want to suggest my own acronym for GDPR, the Great Data Power Redistribution.
+</span> - on the decentralized nature of information and economic systems, and the flashiness of high modernist names, I want to suggest a new acronym for GDPR, the Great Data Power Redistribution. -->
 
 As revolutionary as cookie banners are<label for="sn-cookies" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-cookies" class="margin-toggle">
 <span class="sidenote">
-It's basically a democratization of cookie clicker
-</span>, there's another very important part of the legislation which has gotten little love over the years: the right to data portability.
+The democratization of cookie clicker! https://orteil.dashnet.org/cookieclicker/
+</span>, there's another very important part of the GDPR legislation which has gotten little love over the years: the right to data portability. (global availablity article link)
 
 > The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided[^gdpr]
 
-Of course the article doesn't provide any specific guidance on the implementation so, given the current absence of incentive structures, none of this exists with interoperable standards and any resemblance of a user experience. Yet even in this current state of minimum usability, you can now access the most comprehensive digital model of your identity, from your private Google search history to your Instagram messages.
+Of course the article doesn't provide any specific guidance on the implementation so, given the current absence of incentive structures, none of this exists with interoperable standards and any resemblance of a user experience. Yet even in this current state of minimum usability, you can now download the most comprehensive digital representation of your identity, from your Google search history to your private Instagram messages.
 
-(some examples about google and facebook data. focus on raw data and possiblity of info for next section)
+(some examples about google and facebook data in the raw sense (ie personality, intent.. keep analysis for next sections)). llm local processing sending a surrogate of the data to government.
 
-How do we make sure all of this is used to a good purpose, and most importantnly how is it better than what the government currently does?
+<!-- How do we make sure all of this is used to a good purpose, and most importantnly how is it better than what the government currently does analytics? -->
+
+<!-- (bit on passive democracy) -->
 
 ## Code integrity and differential privacy<label for="sn-edge-2" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-edge-2" class="margin-toggle">
@@ -77,45 +81,52 @@ How do we make sure all of this is used to a good purpose, and most importantnly
 The Agent &#10226; edge.
 </span>
 
-Lucky for us all this data is locked up in the cool and secure (lapland datacenter) datacenters of the tech giants, with the legal system waiting for a moose to smash into window to sue the companies for privacy violations.
+Lucky for us all this data is locked up and distributed to the cool and secure datacenters around the world, with the legal system waiting for a moose to smash into window to sue the companies for privacy violations.
 
-There is little cross-contamination between the datasets, Google knowing your searches, Facebook knowing your friends and amazon knowing what you purchase. The traditional third party processors hold some of that data (Nielsen, Liveramp etc), but no one has the full picture except you.
+| ![Lulea Data Center](images/lulea.jpg) |
+|:--:| 
+| Meta's Luleå Data Center |
 
-Personal privacy is fundamental, how free would you be if you knew that your every 
+Despite efforts by Big Tech to dominate the whole of online activity, there remains a notable separation among their respective datasets: Google has your intents, Facebook your messages and Amazon your items, which are all partial apsects of you. While third-party data processors such as Nielsen and LiveRamp do have access to a wider window into our lives (like household composition and income level), no single entity possesses both a wide and deep view of all the data, except for the individual user themselves.
 
-Yet i will explain how all this data would be invaluable for a policymaker. 
+Personal privacy is of course fundamental. While the ideal state might be the aforementioned blockchain-like society, where perfect information is available, we must consider the realities of our human psychology. The chilling effect occurs when individuals hesitate to search for information or express opinions online due to fear of future repercussions. This not only compromises personal freedom but also hinders creativity, innovation, and the free flow of ideas, which are crucial for a thriving and progressive society.
 
-(borrowing a concept from differential privacy that was actually created for government)
+Yet there's a tradeoff as described by the concept of differential privacy, which ironically enough was first applied by the U.S. Census Bureau. In order for data to be useful and draw predictions from it, we need it in aggregate (also equivalence of aggregation with NNs): [explain quickly]
+research has shown that there are many ways to produce very accurate statistics from the database while still ensuring high levels of privacy.[1] 
 
 ![Differential privacy utility curve](images/differential-privacy-utility.png)
 
-the green dot being a zero-knowledge proof if you're from the web3 crowd
+How do we trust the government to use these demonstrably private alogs and not surveillance? 
 
-but how do we ensure that the data is indeed used for policy (not surveillance) and is aggregate? confidentiality ... (commercial cloud oct '22)
+confidentiality ... (commercial cloud oct '22) (quickly gloss over sev-snp, hardware collusion and cloud provider corruption)
 
-(How does this data then become useful?) Let's consider our general relation with ads. Some might go to the extent of Norway and even ban targeted ads (or also https://noyb.eu/en). Your milage may vary but on average very few of the ads we see have anything to do with us.<label for="sn-maggots" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-maggots" class="margin-toggle">
-<span class="sidenote">
-many reasons why: ... 
-</span> Why should they have my data if the targeting is so bad? The same applies with government. why would i give all this data? see next paragraph
+(How does this data then become useful? Ok, everything is confidential and all but still there's a risk and i'm willing to expose myself only if there's a benefit) Let's draw a parallel with ads. Some people are ok with ads, they find some interesting things and are willing to buy them, for some people ads are completely useless and they've never clicked on one (apparently all the norwegians). Your milage may vary but on average very few of the ads we see have anything to do with us. Why should they have my data if the targeting is so bad? The same applies with government. why would i give all this data? see next paragraph
 
-## Gross Generalization Like a State<label for="sn-edge-3" class="margin-toggle sidenote-number"></label>
+(maybe add the bit on game theory from EnclaveID market analysis doc)
+
+## Overseeing Like a State<label for="sn-edge-3" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-edge-3" class="margin-toggle">
 <span class="sidenote">
 The Agent &rarr; Principal edge.
 </span>
 
-In Seeing like a State [Discuss the importance of local decisions and how they often contain nuanced data that central authorities miss. Emphasize that governments have limited capacity for data capture and analysis, reinforcing the value of public participation in data sharing...]
+In Seeing like a State [Discuss the importance of local decisions and how they often contain nuanced data that central authorities miss. Emphasize that governments have limited capacity for data capture and analysis, reinforcing the value of public participation and private firms in analysis ...]
 
 |![Munger hall](images/munger-hall.jpg)|
 |:--:| 
-| 3D render of the Munger Hall plans |
+| 3D render of the scrapped Munger Hall plan |
+
+... digital trace data lets the government know what kind of information is being overlooked if there's a large enough mass of smart people talking about it, with experts among them
+
+stress how these people are the middle classes, informed people, which alsouse digital serviices more.
+
+something about the nature of the data, less biased since it's organic, free of conflict of interest unlike twitter
 
 [bring examples specificifying how takeout data can give a better picture than trad. analyses]
 
-What's important is that not only the policy implemented is scientifically sound, but also that it aligns with the morality of the principal.
+also different leves of decisions. like whether to invade or not a country is not decentralized information, but some economic policy might be. plus capitalism is already decentralized but some things need to be carried out by govt. since money doesn't account for externalities and some things are too expensive like buidling a nuclear power plant
 
-<!-- [Democracy basically means government by the people, of the people, for the people...](https://www.youtube.com/watch?v=QFgcqB8-AxE) -->
+What's important is that not only the policy implemented is scientifically sound, but also that it aligns with the morality of the principal. (again having to reckon with psychology)
 
 ## Legitimacy and morality<label for="sn-edge-4" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-edge-4" class="margin-toggle">
@@ -129,9 +140,14 @@ The Principal &#10226; edge.
 
 According to Haidt, the public is fundamentally moral: group selection. Disconnect in perception of legitimacy → the principal might not have as much data about the global state as the agent, so analyzes choice based on internal value and personality model
 
+while the exhaustiveness and exclusiveness of the dimensions is an area of acitve research, the fundamental truth is group behavior.
+
 change this into group selection -> [Personality and morality -> somewhat stable internal state, hard to change. is also praty genetic, carrying over information from the previous generation.]
 
 <!-- Like Haidt, i believe pluralism of moralities is generally positive. yet when i first read his book some years ago i was still finding myself thinking "oh that's how i'm gonna convince these dumb (prograssives/coservatives) that my (conservative/prograssive) view is the best!". I'll provide a more abstract analogy to hopefully avoid this for you. -->
+
+![MFT](images/mft.png)
+
 
 Imagine politics as an optimization problem using gradient descent. the difference with gradient descent is that local knowledge is not unique: you can image of two forces. we can use one person on the left and one on the right as simplification (this side is steeper! no, this side is steeper!).
 The set of points is the same (the empirical truth) but both characters have different interpretations for these points using their morality. (give an example)
@@ -139,17 +155,20 @@ The set of points is the same (the empirical truth) but both characters have dif
 with democracy we now have millions of these agents and millions of different moralities -> meaning groups, teams.
 For a government to be perceived as legitimate we have to pick the average of all interpretations of the points. the government could also get lucky and reach the optimum picking one of the curves at random, but that's not the point of democracy.
 
-(Nietzsche, beyond good and evil)
+![Beyond good and evil](images/nietzsche.jpg) 
 
 (???) (LLMs, perusasiveness, theory of mind) -> explain to me policy in a way that reflects how my values have been taken into account, as well as the other people. [paper on personality prediction]
 
-# TLDR
+the solution to tribalism is showing how there's nothing unique to tribalism with an llm
+# Wrapping up
 
 Thanks for reading so far!
 
 [little summary]
 
-the reason why I've mentioned the A word (👻 advertising 👻) before is that advertising is central to this. (blended value)
+i hope i conviced you to change the relationship you have with data
+
+i've been working around this stuff for years and i'll do for the foreseeable future (opportunity for blended value craetion)
 
 Send me an email if you wanna help out (get into the eva shinji)
 
