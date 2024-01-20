@@ -64,51 +64,48 @@ The democratization of cookie clicker! https://orteil.dashnet.org/cookieclicker/
 
 > The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided[^gdpr]
 
-Of course the article doesn't provide any specific guidance on the implementation so, given the current absence of incentive structures, none of this exists with interoperable standards and any resemblance of a user experience. Yet even in this current state of minimum usability, you can now download the most comprehensive digital representation of your identity, from your Google search history to your private Instagram messages.
+Of course the article doesn't provide any specific guidance on the implementation so, given the current absence of incentive structures, none of this exists with interoperable standards and any resemblance of a user experience. Yet even in this current state of minimum usability, you can now download the most comprehensive digital representation of your identity, from your private Google search history to your Instagram messages and Outlook emails.
 
-This data is a the most comprehensive representation of the internal state of the principal, now we need to standardize as requirement for coordination.
+Good proxy for what the internal state of the principal might be, now we need to standardize as requirement for coordination.
 
-<!-- How do we make sure all of this is used to a good purpose, and most importantnly how is it better than what the government currently does analytics? -->
+## Beyond Good & Evil
 
+In The Righteous Mind, Haidt points to the increasing political polarization of the public as the main reason why the public is struggling to coordinate. 
 
-## Beyond Good & Evil<label for="sn-edge-4" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-edge-4" class="margin-toggle">
-<span class="sidenote">
-The Principal &#10226; edge.
-</span>
+this is due to instict of going around groups, ... a genetic component carrying over information from the previous generation.
 
-[important: draw a difference between people that can do some optimal interpolation -> bayesians, vs people that have very biased interpolation -> moralists. morality bad. spectrum of moralisms -> how quickly you can update your beliefs in a bayesian way]
+[examples of morality from mft book]
 
-According to Haidt, the public is fundamentally moral: group selection. Disconnect in perception of legitimacy → the principal might not have as much data about the global state as the agent, so analyzes choice based on internal value and personality model
-
-while the exhaustiveness and exclusiveness of the dimensions is an area of acitve research, the fundamental truth is group behavior.
-
-change this into group selection -> [Personality and morality -> somewhat stable internal state, hard to change. is also praty genetic, carrying over information from the previous generation.]
-
-<!-- Like Haidt, i believe pluralism of moralities is generally positive. yet when i first read his book some years ago i was still finding myself thinking "oh that's how i'm gonna convince these dumb (prograssives/coservatives) that my (conservative/prograssive) view is the best!". I'll provide a more abstract analogy to hopefully avoid this for you. -->
+there are degrees of polarization, some people left, some people right, and some people in the middle (bayesians) of MFT
 
 ![MFT](images/mft.png)
 
+while the exhaustiveness and exclusiveness of the dimensions is an area of acitve research, the fundamental truth is for most humans craving to group behavior is greater than craving for optimality
 
+
+why polarization is bad, post truth:
 Imagine politics as an optimization problem using gradient descent. the difference with gradient descent is that local knowledge is not unique: you can image of two forces. we can use one person on the left and one on the right as simplification (this side is steeper! no, this side is steeper!).
 The set of points is the same (the empirical truth) but both characters have different interpretations for these points using their morality. (give an example)
+with democracy we now have millions of these agents and millions of different moralities -> meaning groups, teams. fuck up bro
 
-with democracy we now have millions of these agents and millions of different moralities -> meaning groups, teams.
-For a government to be perceived as legitimate we have to pick the average of all interpretations of the points. the government could also get lucky and reach the optimum picking one of the curves at random, but that's not the point of democracy.
+| ![Gradient descent](images/gradient-descent.png) |
+|:-:|
+| A strugglesome gradient descent. Source: Dall-e  |
 
-<!-- ![Beyond good and evil](images/nietzsche.jpg)  -->
+We need to build an LLM that has average morality: the better it generalizes the better it can persuade.
+(LLMs, perusasiveness, theory of mind) -> explain to me policy in a way that reflects how my values have been taken into account, as well as the other people. [paper on personality prediction]
 
-(???) (LLMs, perusasiveness, theory of mind) -> explain to me policy in a way that reflects how my values have been taken into account, as well as the other people. [paper on personality prediction]
+https://arxiv.org/abs/2209.12106
 
-the solution to tribalism is showing how there's nothing unique to tribalism with an llm
+https://r2hcai.github.io/AAAI-23/files/CameraReadys/49.pdf
 
-## Code integrity and differential privacy<label for="sn-edge-2" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-edge-2" class="margin-toggle">
-<span class="sidenote">
-The Agent &#10226; edge.
-</span>
+https://x.com/sama/status/1716972815960961174
 
-As much as /r/LocalLLAMA would like us to to believe, if i know there's a better LLM out there, i'll use that one even if it's hosted -> computing power constraints (LLM) + computing power constraits (updating database of policies) -> private targetign 
+This is already a reality with the bigger models: As much as /r/LocalLLAMA would like us to to believe, if i know there's a better LLM out there, i'll use that one even if it's host -> intro to privacy problem
+
+## Code integrity and differential privacy
+
+computing power constraints (LLM) + computing power constraits (updating database of policies) -> CMV + code integrity 
 
 Lucky for us all this data is locked up and distributed to the cool and secure datacenters around the world, with the legal system waiting for a moose to smash into window to sue the companies for privacy violations.
 
@@ -118,14 +115,18 @@ Lucky for us all this data is locked up and distributed to the cool and secure d
 
 Despite efforts by Big Tech to dominate the whole of online activity, there remains a notable separation among their respective datasets: Google has your intents, Facebook your messages and Amazon your items, which are all partial apsects of you. While third-party data processors such as Nielsen and LiveRamp do have access to a wider window into our lives (like household composition and income level), no single entity possesses both a wide and deep view of all the data, except for the individual user themselves.
 
-Personal privacy is of course fundamental. While the ideal state might be the aforementioned blockchain-like society, where perfect information is available, we must consider the realities of our human psychology. The chilling effect occurs when individuals hesitate to search for information or express opinions online due to fear of future repercussions. This not only compromises personal freedom but also hinders creativity, innovation, and the free flow of ideas, which are crucial for a thriving and progressive society.
+yet it's unrealistic for us to hope that all this process
+
+Personal privacy is of course fundamental. While the ideal state might be the aforementioned blockchain-like society, where perfect information is available, we must consider the realities of our human psychology. The chilling effect occurs when individuals hesitate to search for information or express opinions online due to fear of future repercussions. This not only compromises personal freedom but also hinders creativity, innovation, and the free flow of ideas, which are crucial for a thriving and progressive society. -> this is arguably a bigger problem than surveillance in a lwful society
 
 Yet there's a tradeoff as described by the concept of differential privacy, which ironically enough was first applied by the U.S. Census Bureau. In order for data to be useful and draw predictions from it, we need it in aggregate (also equivalence of aggregation with NNs): [explain quickly]
 research has shown that there are many ways to produce very accurate statistics from the database while still ensuring high levels of privacy.[1] 
 
+
+
 ![Differential privacy utility curve](images/differential-privacy-utility.png)
 
-How do we trust the government to use these demonstrably private alogs and not surveillance? 
+as for advertising, the problem is not whether targeting is accurate, but whether a single actor can skew the market -> code integrity
 
 confidentiality ... (commercial cloud oct '22) (quickly gloss over sev-snp, hardware collusion and cloud provider corruption)
 
@@ -136,11 +137,11 @@ confidentiality ... (commercial cloud oct '22) (quickly gloss over sev-snp, hard
 
 # Wrapping up
 
-TLDR: Fight for Open-Source, fight for your data rights and fight for your privacy.
+> TLDR: Fight for Open-Source, fight for your data rights and fight for your privacy.
 
-[little summary]
 
-the reason i've been talking about ads it's because it's important to do have a diversified income to discourage rent seeking
+
+the reason i've been drawing parallels with advertising it's because it's important to do have a diversified income to discourage rent seeking
 
 i've been working around this stuff for years and i'll do for the foreseeable future (opportunity for blended value craetion)
 
