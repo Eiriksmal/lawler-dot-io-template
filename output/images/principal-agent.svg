@@ -1,0 +1,63 @@
+<!-- Original created by Zirguezi(http://commons.wikimedia.org/wiki/User:Zirguezi) for use on Wikimedia projects. Contact author for translations. -->
+<!-- The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. -->
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912.89 513.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #29abe2;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #f15a24;
+      }
+
+      .cls-3 {
+        font-size: 59.75px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        font-size: 31.37px;
+      }
+    </style>
+  </defs>
+  <title>PrincipalAgent_var1</title>
+  <ellipse class="cls-1" cx="227.81" cy="250.5" rx="129.02" ry="131.45"/>
+  <ellipse class="cls-2" cx="692.57" cy="250.5" rx="129.02" ry="131.45"/>
+  <text class="cls-3" transform="translate(103.97 264.15) scale(0.98 1)">Principal</text>
+  <text class="cls-3" transform="translate(609.5 262.66) scale(0.98 1)">Agent</text>
+  <g>
+    <path class="cls-4" d="M241.66,122.38c0-92.61,125.81-86.64,125.81-86.64h219s104.36-7.8,118.35,68.79" transform="translate(-13.11 -3.33)"/>
+    <polygon points="679.59 93.97 691.12 97.55 701.7 91.73 693.3 119.05 679.59 93.97"/>
+  </g>
+  <text class="cls-5" transform="translate(425.35 26.91) scale(0.98 1)">Hires</text>
+  <g>
+    <path class="cls-4" d="M707.88,385.27c0,92.62-126.21,86.64-126.21,86.64H361.93s-104.69,7.8-118.72-68.79" transform="translate(-13.11 -3.33)"/>
+    <polygon points="242.26 407.03 230.73 403.45 220.16 409.27 228.55 381.95 242.26 407.03"/>
+  </g>
+  <text class="cls-5" transform="translate(393.34 501.92) scale(0.98 1)">Performs</text>
+  <g>
+    <path class="cls-4" d="M128.54,319.63S58,326.86,61.39,244.77C64,182.62,94.48,176,115.64,176.55" transform="translate(-13.11 -3.33)"/>
+    <path d="M112,176.52l-3.92-7.47.25-.15,11.44,5.4,12.09,3.47-12.43,1.92-12,3.92-.24-.13Z" transform="translate(-13.11 -3.33)"/>
+  </g>
+  <text class="cls-5" transform="translate(38.23 343.58) scale(0.98 1)">Self<tspan x="-27.89" y="37.64">Interest</tspan></text>
+  <g>
+    <path class="cls-4" d="M816.28,320.19s70.37,9.19,69.13-73c-.94-62.2-31.24-69.71-52.41-69.7" transform="translate(-13.11 -3.33)"/>
+    <path d="M836.6,177.59l4.63,7-.24.17-11.9-4.26-12.37-2.27,12.18-3.13,11.58-5.07.25.11Z" transform="translate(-13.11 -3.33)"/>
+  </g>
+  <text class="cls-5" transform="translate(818.19 343.58) scale(0.98 1)">Self<tspan x="-27.89" y="37.64">Interest</tspan></text>
+</svg>
